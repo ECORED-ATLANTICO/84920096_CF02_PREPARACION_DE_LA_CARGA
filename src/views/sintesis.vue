@@ -2,11 +2,17 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-5.col-lg-1.mb-lg-0.mb-3.d-flex
+        figure.w-100.d-flex.flex-column
+          img(src='@/assets/curso/sintesis/img_1.png', class="img-fluid").height-100  
+      .col-12.col-lg-11
+        p.mb-0 A continuación, se describe una visión general sobre los aspectos clave de la preservación y embalaje de la carga. Comienza con todo lo relacionado al aseguramiento de la carga. Además, se explora la todo lo referente a los tipos y métodos de uso de las paletas y los embalajes para la protección de la carga.
+        p.mb-0 Finalmente, se abordan los contenedores, los tipos existentes, sus características, la normativa que los rige y los métodos de uso.
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis/sintesis.svg", alt="A continuación, se describe una visión general sobre los aspectos clave de la preservación y embalaje de la carga. Comienza con todo lo relacionado al aseguramiento de la carga. Además, se explora la todo lo referente a los tipos y métodos de uso de las paletas y los embalajes para la protección de la carga. Finalmente, se abordan los contenedores, los tipos existentes, sus características, la normativa que los rige y los métodos de uso.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

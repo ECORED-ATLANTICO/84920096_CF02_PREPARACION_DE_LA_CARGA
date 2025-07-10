@@ -1,32 +1,122 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
 .banner-principal .tarjeta
-  background-position: left 50% !important
+  background-image: url('../assets/curso/portada/fondo-banner-contenido-mobile.png') !important
+@media (min-width: 426px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-contenido-tablet.png') !important
+    padding-right: 130px
+@media (min-width: 769px)
+  .banner-principal .tarjeta
+    padding-right: 0
+    overflow: hidden
+@media (min-width: 1023px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-contenido.png') !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+  .banner-principal__row 
+  .banner-principal__img
+    width: 405px
+    padding-bottom: 0 !important
+    padding-top: 0 !important
+    z-index: 2
+    animation: float1 3s ease-in-out infinite alternate
+@media (min-width: 1025px)
+  .banner-principal__row .banner-principal__img
+    width: 530px
+    z-index: 2
+.titulo-principal__numero
+  min-width: 45px
+  height: 45px
+  margin-right: 15px
+  position: relative
+  background-color: $color-acento-contenido !important
+
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/fondo-banner-principal.png') !important
+
+  .banner-principal .tarjeta
+  background-position: left 50% !important 
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: $color-sistema-texto
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+
+.banner-principal-decorativo
+  &-1
+    top: 10%
+    right: 5%
+    width: 410px
+    z-index: -1
+    position: absolute
+    animation: float1 3.5s ease-in-out infinite alternate
+  &-2
+    top: -3%
+    right: -4%
+    width: 330px
+    z-index: -1
+    position: absolute
+    animation: float1 3.6s ease-in-out infinite alternate
+  &-3
+    top: 35%
+    right: 52%
+    width: 250px
+    z-index: -1
+    position: absolute
+    animation: float1 3.7s ease-in-out infinite alternate
+  &-4
+    top: 70%
+    right: 90%
+    width: 70px
+    position: absolute
+    animation: float1 3.8s ease-in-out infinite alternate
+  &-5
+    top: 10%
+    right: 75%
+    width: 70px
+    position: absolute
+    animation: float1 3.9s ease-in-out infinite alternate
+  &-6
+    top: 30%
+    right: 10%
+    width: 70px
+    position: absolute
+    animation: float1 4s ease-in-out infinite alternate
+@media (min-width: 1025px)
+  .banner-principal-decorativo
+    &-1 
+      top: 0%
+      right: -1%
+      width: 620px
+      z-index: -1
+    &-2
+      top: -5%
+      right: -7%
+      width: 500px
+      z-index: -1
+    &-3
+      top: 30%
+      right: 50%
+      width: 400px
+      z-index: -1
+    &-4
+      top: 70%
+      right: 90%
+      width: 100px
+    &-5
+      top: 10%
+      right: 90%
+      width: 100px
+    &-6
+      top: 30%
+      right: 10%
+      width: 100px

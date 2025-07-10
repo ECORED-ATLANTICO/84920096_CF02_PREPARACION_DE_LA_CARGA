@@ -1,17 +1,34 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    Name: 'Preservación y embalaje de carga',
+    Description:
+      'Este componente aborda el aseguramiento de la carga, paletas, embalaje y contenedores, cubriendo conceptos, tipos, características, normativas y métodos de uso. Brinda técnicas para optimizar el transporte, garantizar la seguridad de la mercancía y cumplir con regulaciones, utilizando herramientas como paletas, embalajes adecuados y contenedores según necesidades logísticas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-contenido.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-contenido.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        clases: ['banner-principal-decorativo-1'],
+        imagen: require('@/assets/curso/portada/banner-contenido-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-contenido-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-contenido-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-contenido-decorativo-4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-contenido-decorativo-5.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/banner-contenido-decorativo-6.png'),
       },
     ],
   },
@@ -31,13 +48,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Aseguramiento de la carga',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Métodos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Normativa',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +72,96 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Paletas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Características',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Métodos de uso',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Embalaje',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tipos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Características',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Métodos de uso',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Técnicas',
+            hash: 't_3_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Contenedores',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Tipos',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Características',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Normativa',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Usos',
+            hash: 't_4_5',
+          },
+        ],
       },
     ],
     subMenu: [
