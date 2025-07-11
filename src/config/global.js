@@ -211,22 +211,134 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Paletas',
+      referencia:
+        'Brain Logistic. (2023). <i>¿Qué es un pallet</i>? [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=HzjVhHWmAVc',
+    },
+    {
+      tema: 'Contenedores',
+      referencia:
+        'ARGalliance. (2024). <i>Tipos de contenedores</i>. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0EBpOmCS4JA',
+    },
+    {
+      tema: 'Embalaje',
+      referencia:
+        'Líder del Emprendimiento. (2019). <i>Tipos de empaque y embalaje</i>. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=uQvCZG3n6-o',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Aseguramiento de la carga',
+      significado:
+        'conjunto de técnicas y procedimientos para fijar y proteger la mercancía durante su transporte, almacenamiento y manipulación.',
+    },
+    {
+      termino: 'Bloqueo y calce',
+      significado:
+        'técnica que utiliza elementos rígidos o semirrígidos para evitar el movimiento de la carga rellenando espacios vacíos.',
+    },
+    {
+      termino: 'Contenedor',
+      significado:
+        'artículo de transporte equipado con características estructurales que permiten su manipulación, estiba y transporte en múltiples modos.',
+    },
+    {
+      termino: 'CTU',
+      significado:
+        'código CTU, directrices para el correcto estibado y trincaje de carga en contenedores y unidades de transporte.',
+    },
+    {
+      termino: 'DIAN',
+      significado:
+        'Dirección de Impuestos y Aduanas Nacionales (Colombia), entidad gubernamental que gestiona los impuestos y el comercio exterior.',
+    },
+    {
+      termino: 'DOT',
+      significado:
+        'Departamento de Transporte (EE.UU.), que regula el peso máximo, distribución y sujeción de la carga en transporte terrestre.',
+    },
+    {
+      termino: 'Embalaje',
+      significado:
+        'conjunto de materiales, recipientes o envolturas que protegen, contienen y facilitan el manejo, transporte y almacenamiento de productos.',
+    },
+    {
+      termino: 'Estabilidad',
+      significado:
+        'condición de la carga que, al estar bien asegurada, evita desplazamientos y accidentes durante el transporte.',
+    },
+    {
+      termino: 'Estiba',
+      significado:
+        'acción de colocar y asegurar la carga dentro del contenedor para su transporte.',
+    },
+    {
+      termino: '<i>Film</i> estirable',
+      significado:
+        'material utilizado para agrupar la carga sobre las paletas y facilitar su manejo.',
+    },
+    {
+      termino: 'ISO',
+      significado: 'Organización Internacional de Normalización.',
+    },
+    {
+      termino: 'Normativa',
+      significado:
+        'conjunto de estándares y regulaciones (internacionales, regionales y nacionales) que rigen el aseguramiento de la carga.',
+    },
+    {
+      termino: 'OMI',
+      significado:
+        'Organización Marítima Internacional, que establece directrices para el estibado y trincaje de carga en contenedores y unidades de transporte.',
+    },
+    {
+      termino: 'Paleta (o <i>palet</i>)',
+      significado:
+        'plataforma plana, de madera, plástico o metal, utilizada para facilitar el almacenamiento, transporte y manipulación de mercancías.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'característica del embalaje que busca reducir el impacto ambiental.',
+    },
+    {
+      termino: 'Trincaje',
+      significado:
+        'método de sujeción que utiliza elementos tensores como cinchas, cadenas o cables para fijar la carga.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Andes Montacargas. (2024). <i>Tipos de Contenedores: Guía Completa para su Negocio.</i>',
+      link: 'https://andesmontacargas.com/tipos-de-contenedores/',
+    },
+    {
+      referencia:
+        'Andes Montacargas. (2025). <i>Asegurar la carga: Guía completa para garantizar seguridad y eficiencia.</i>',
+      link: 'https://andesmontacargas.com/asegurar-la-carga/',
+    },
+    {
+      referencia:
+        'AR Racking. (2024). <i>Embalaje primario, secundario y terciario: Tipos.</i>',
+      link:
+        'https://www.ar-racking.com/co/blog/embalaje-primario-secundario-y-terciario-tipos-y-sus-funciones/',
+    },
+    {
+      referencia:
+        'IPLA Palletizers. (2024). <i>Tipos de palets y sus características.</i>',
+      link: 'https://iplapalletizers.com/tipos-de-palets/',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (2021). <i>Zajuna Semilla. 136200_1_virtual_1-Servicios postales y transporte de mercancías.</i>',
+      link: 'https://zajuna.sena.edu.co/zajuna/course/view.php?id=12441',
     },
   ],
   creditos: [

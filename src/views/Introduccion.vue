@@ -7,9 +7,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p.mb-0 Este componente proporciona los conocimientos esenciales para garantizar el manejo seguro y eficiente de la carga en la cadena logística. 
-    p.mb-0 Abarca desde el aseguramiento de la mercancía, incluyendo conceptos, métodos y normativas vigentes, hasta el uso adecuado de paletas, considerando sus tipos, características y aplicaciones prácticas.
-    p.mb-5 Estos elementos son fundamentales para prevenir daños, optimizar el espacio y cumplir con estándares de transporte.
+    p.mb-5 Este componente proporciona los conocimientos esenciales para garantizar el manejo seguro y eficiente de la carga en la cadena logística. Abarca desde el aseguramiento de la mercancía, incluyendo conceptos, métodos y normativas vigentes, hasta el uso adecuado de paletas, considerando sus tipos, características y aplicaciones prácticas. Estos elementos son fundamentales para prevenir daños, optimizar el espacio y cumplir con estándares de transporte.
     
     .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
