@@ -180,6 +180,48 @@ figcaption
       height: 100%
       background-image: url('../assets/curso/temas/tema_1/img_16.png') !important
       background-repeat: no-repeat
+  &_5
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -40px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_28.png') !important
+      background-repeat: no-repeat
+  &_6
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_29.png') !important
+      background-repeat: no-repeat
+  &_7
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_30.png') !important
+      background-repeat: no-repeat
 
 ///tarjeta personalizadas
 .tarjeta
@@ -193,6 +235,14 @@ figcaption
     @media (min-width: 768px) 
       padding: 20px
       padding-left: 70px
+  &_img_2
+    background-image: url('../assets/curso/temas/tema_2/img_18.png')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    border-radius: 15px 
+    padding: 30px
+    max-width: 100% 
  
 
 ///////// Card hover --------------------------------------
@@ -202,25 +252,41 @@ figcaption
   overflow: hidden !important 
   &:hover    
     .crd_hover_txt--body   
-      background-color: #FFCE79
-      // color: #12263F
+      background-color: $color-primario-5
+      color: $color-sistema-texto
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
     h4
-      color: #12263F !important
+      color: $color-sistema-texto !important
 
   .crd_hover_txt--body
     position: absolute
-    padding: 1.5rem
+    padding: 1.2rem 0.5rem 1.5rem 0.5rem
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #33490B
+    background-color: $white
+    &.color-primario
+      background-color: $color-primario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
     h4
-      color: #fff
+      color: $color-sistema-texto
       font-style: italic
 
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
       p
         font-size: 0.85em
+
+// Tabla a 
+.tabla-a thead
+  border-top: 10px $color-acento-contenido solid
+  color: $color-sistema-a
+  background-color: $color-acento-contenido-20
+
+.bg-table-01
+  background-color: $color-adicional-2
+  color: $color-sistema-texto
+.b 
+  font-weight: bold

@@ -47,39 +47,39 @@
             p.mb-0 Estas consecuencias afectan directamente la rentabilidad, la logística y la reputación de las empresas involucradas en la cadena de suministro.
 
     .bg_img_2.mb-3
-      .row.justify-content-center.mb-5
-        .col-12.col-lg-3.mb-4.mb-xl-0
+      .row.justify-content-center.align-items-center.mb-3
+        .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/temas/tema_1/img_6.png")
-          .crd_hover_txt--body
-            h4.mb-3.text-center Daños  en la mercancía
-            p.mb-0.text-small Cuando los materiales se mueven de forma insegura, el impacto o la vibración durante el transporte pueden causar roturas, deformaciones o pérdida de valor en los productos.
-        .col-12.col-lg-3.mb-4.mb-xl-0
+                img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid")
+            .crd_hover_txt--body.color-primario
+              h5.mb-3.text-center Daños  en la mercancía
+              p.mb-0.text-small Cuando los materiales se mueven de forma insegura, el impacto o la vibración durante el transporte pueden causar roturas, deformaciones o pérdida de valor en los productos.
+        .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/temas/tema_1/img_7.png")
-          .crd_hover_txt--body
-            h4.mb-3.text-center Accidentes laborales
-            p.mb-0.text-small Cargas inestables o mal sujetas pueden caer, provocando lesiones graves a los operadores de montacargas o al personal cercano.
-        .col-12.col-lg-3.mb-4.mb-xl-0
+                img(src="@/assets/curso/temas/tema_1/img_7.png", class="img-fluid")
+            .crd_hover_txt--body.color-acento-contenido
+              h5.mb-3.text-center Accidentes laborales
+              p.mb-0.text-small Cargas inestables o mal sujetas pueden caer, provocando lesiones graves a los operadores de montacargas o al personal cercano.
+        .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/temas/tema_1/img_8.png")
-          .crd_hover_txt--body
-            h4.mb-3.text-center Retrasos en la cadena de suministro
-            p.mb-0.text-small Una carga mal asegurada puede provocar caídas o daños durante el transporte, lo que inevitablemente causa retrasos. Cuando un producto no llega a tiempo, toda la operación se ve afectada.
-        .col-12.col-lg-3.mb-4.mb-xl-0
+                img(src="@/assets/curso/temas/tema_1/img_8.png", class="img-fluid")
+            .crd_hover_txt--body.color-primario
+              h5.mb-3.text-center Retrasos en la cadena de suministro
+              p.mb-0.text-small Una carga mal asegurada puede provocar caídas o daños durante el transporte, lo que inevitablemente causa retrasos. Cuando un producto no llega a tiempo, toda la operación se ve afectada.
+        .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/temas/tema_1/img_9.png")
-          .crd_hover_txt--body
-            h4.mb-3.text-center Costos adicionales de reemplazo y mantenimiento
-            p.mb-0.text-small Cuando los materiales se dañan durante el transporte, la empresa debe asumir gastos adicionales, como: reemplazo de productos afectados y reparación de equipos dañados.
+                img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid")
+            .crd_hover_txt--body.color-acento-contenido
+              h5.mb-3.text-center Costos adicionales de reemplazo y mantenimiento
+              p.mb-0.text-small Cuando los materiales se dañan durante el transporte, la empresa debe asumir gastos adicionales, como: reemplazo de productos afectados y reparación de equipos dañados.
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10
           .cajon.color-primario-adicional-2.p-4.mb-3
@@ -90,28 +90,97 @@
         figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
           img(src='@/assets/curso/temas/tema_1/img_10.png', class="img-fluid h-100")
       .col-12.col-lg-8.mb-lg-0.mb-3
-        LineaTiempoD.color-adicional-3
+        LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Evaluación de la carga")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0
+              ul.text-small.mb-0.p-0
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Identificar el tipo de mercancía. 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Verificar peso, dimensiones y centro de gravedad.
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Determinar el medio de transporte.
           .row(numero="2" titulo="Selección del método de aseguramiento")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0
+              ul.text-small.mb-0.p-0
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Elegir entre trincaje, bloqueo, fijado, entibado o amortiguación, según las características de la carga. 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Usar materiales certificados.
           .row(numero="3" titulo="Preparación del soporte de carga")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0
+              ul.text-small.mb-0.p-0
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Limpiar y acondicionar el área. 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Verificar que el piso sea antideslizante o usar esteras de fricción. 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Asegurar estructuras de anclaje.
           .row(numero="4" titulo="Distribución y estiba")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0
+              ul.text-small.mb-0.p-0
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Colocar la carga de manera uniforme, evitando desbalances. 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Ubicar los elementos más pesados en la base y centrados.
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Utilizar paletas o separadores.
           .row(numero="5" titulo="Aplicación de técnicas de fijación")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0
+              ul.text-small.mb-0.p-0
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Trincar con cinchas / cadenas en ángulos adecuados (idealmente 45 °a 60 °). 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Bloquear con calzos o rellenos para evitar movimientos laterales. 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Aplicar flejes o <I>films</I>.
           .row(numero="6" titulo="Verificación final")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0
+              ul.text-small.mb-0.p-0
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Comprobar que no haya desplazamientos al aplicar movimientos manuales. 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Asegurar que las tensiones de amarre sean uniformes
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Confirmar cumplimiento normativo.
           .row(numero="7" titulo="Documentación y cumplimiento")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-0
+              ul.text-small.mb-0.p-0
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Registrar el método de aseguramiento en la documentación de transporte. 
+                .border-bottom.mb-1
+                li
+                  i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
+                  | &nbsp;&nbsp;Incluir etiquetas de advertencia si la carga requiere manejo especial.
 
     separador
 
@@ -138,32 +207,31 @@
               th Aplicación
           tbody
             tr
-              td Bloqueo y calce 
-              td Técnica que utiliza elementos rígidos o semirrígidos para rellenar espacios vacíos y evitar el movimiento de la carga.
-              td Madera (tacos, vigas y listones). <br>Espumas de poliuretano o poliestireno. <br>Separadores plásticos o metálicos. <br>Bolsas de aire inflables.
-              td Transporte de maquinaria pesada. <br>Carga de vidrio.
+              td.text-start Bloqueo y calce 
+              td.text-start Técnica que utiliza elementos rígidos o semirrígidos para rellenar espacios vacíos y evitar el movimiento de la carga.
+              td.text-start Madera (tacos, vigas y listones). <br>Espumas de poliuretano o poliestireno. <br>Separadores plásticos o metálicos. <br>Bolsas de aire inflables.
+              td.text-start Transporte de maquinaria pesada. <br>Carga de vidrio.
+            tr.bg-table-01
+              td.text-start Trincaje (Amarre)
+              td.text-start Método de sujeción mediante elementos tensores (cinchas, cadenas o cables) que fijan la carga a estructuras rígidas del vehículo o contenedor.
+              td.text-start Cinchas de poliéster o nylon. <br>Cadenas de acero con tensores. <br>Cables de acero con ganchos.
+              td.text-start Transporte de vehículos. <br>Carga en barcos.
             tr
-              td Trincaje (Amarre)
-              td Método de sujeción mediante elementos tensores (cinchas, cadenas o cables) que fijan la carga a estructuras rígidas del vehículo o contenedor.
-              td Cinchas de poliéster o nylon. <br>Cadenas de acero con tensores. <br>Cables de acero con ganchos.
-              td Transporte de vehículos. <br>Carga en barcos.
-            tr
-              td Encintado y flejado
-              td Técnica de consolidación de paquetes o bultos mediante cintas adhesivas o flejes metálicos / plásticos.
-              td Cinta adhesiva reforzada. <br>Flejes de poliéster o acero. <br>Flejadoras manuales o automáticas.
-              td Cajas de cartón. <br>Paquetes de tubos metálicos.
-            tr
-              td Uso de rellenos
-              td Empleo de materiales de amortiguación para proteger la carga de impactos y vibraciones.
-              td Burbujas de aire. <br>Espuma de poliestireno. <br>Papel <I>kraft</I> o rellenos biodegradables.
-              td Electrónicos. <br>Muebles frágiles.
+              td.text-start Encintado y flejado
+              td.text-start Técnica de consolidación de paquetes o bultos mediante cintas adhesivas o flejes metálicos / plásticos.
+              td.text-start Cinta adhesiva reforzada. <br>Flejes de poliéster o acero. <br>Flejadoras manuales o automáticas.
+              td.text-start Cajas de cartón. <br>Paquetes de tubos metálicos.
+            tr.bg-table-01
+              td.text-start Uso de rellenos
+              td.text-start Empleo de materiales de amortiguación para proteger la carga de impactos y vibraciones.
+              td.text-start Burbujas de aire. <br>Espuma de poliestireno. <br>Papel <I>kraft</I> o rellenos biodegradables.
+              td.text-start Electrónicos. <br>Muebles frágiles.
 
             tr
-              td Sistemas modulares (paletización)
-              td Agrupación de carga sobre paletas para facilitar su manejo con equipos mecánicos (montacargas, transpaletas, entre otros).
-              td Paletas de madera, plástico o metal. <br><I>Film</I> estirable. <br>Cubiertas termorretráctiles.
-              td Almacenamiento de alimentos. <br>Exportación de químicos.
-
+              td.text-start Sistemas modulares (paletización)
+              td.text-start Agrupación de carga sobre paletas para facilitar su manejo con equipos mecánicos (montacargas, transpaletas, entre otros).
+              td.text-start Paletas de madera, plástico o metal. <br><I>Film</I> estirable. <br>Cubiertas termorretráctiles.
+              td.text-start Almacenamiento de alimentos. <br>Exportación de químicos.
 
     separador
 
@@ -177,7 +245,7 @@
           figure
             img(src='@/assets/curso/temas/tema_1/img_11.png', class="img-fluid")
         .col-12.col-lg-8
-          .cajon.color-primario-adicional-2.p-3.mb-3
+          .cajon.color-acento-contenido-ac5.p-3.mb-3
             p.mb-0 El aseguramiento de carga está regulado por estándares internacionales, regionales y nacionales para garantizar la seguridad en el transporte, prevenir accidentes y asegurar el cumplimiento de requisitos legales.
           p.mb-0 Para la seguridad y eficiencia en las operaciones logísticas, el cumplimiento de las normativas nacionales e internacionales es fundamental. En Colombia, el Ministerio de Transporte, la DIAN y la Superintendencia de Puertos coercitiva protegen el aseguramiento de carga correctamente con multas para quien no cumpla. Las empresas deben entregar la formación necesaria a su plantel y trabajar con materiales certificados, bancales de riesgo legal y operacional. 
           p.mb-0 A continuación, se detallan las principales normativas aplicables:
@@ -197,41 +265,41 @@
           tbody
             tr
               td(rowspan="4") Internacionales
-              td OMI (Organización Marítima Internacional) - Código CTU
-              td Establecer directrices para el correcto estibado y trincaje de carga en contenedores y unidades de transporte.tr
+              td.text-start OMI (Organización Marítima Internacional) - Código CTU
+              td.text-start Establecer directrices para el correcto estibado y trincaje de carga en contenedores y unidades de transporte.tr
             tr
-              td Normas ISO <br>ISO 1496 <br>ISO 17712 <br>ISO 3874
-              td Especificaciones técnicas para contenedores de carga. <br>Requisitos para sellos de seguridad en contenedores. <br>Estándares para manipulación de contenedores.
+              td.text-start Normas ISO <br>ISO 1496 <br>ISO 17712 <br>ISO 3874
+              td.text-start Especificaciones técnicas para contenedores de carga. <br>Requisitos para sellos de seguridad en contenedores. <br>Estándares para manipulación de contenedores.
             tr
-              td DOT (Departamento de Transporte - EE.UU.)
-              td Regula el peso máximo, distribución y sujeción de carga en transporte terrestre. <br>Exige el uso de cinchas con resistencia certificada.
+              td.text-start DOT (Departamento de Transporte - EE.UU.)
+              td.text-start Regula el peso máximo, distribución y sujeción de carga en transporte terrestre. <br>Exige el uso de cinchas con resistencia certificada.
             tr
-              td Unión Europea - Reglamento UE 2014/47
-              td Establece requisitos técnicos para vehículos de carga. <br>Incluye inspecciones periódicas de sistemas de amarre. <br>Exige que la carga no sobresalga de los límites del vehículo.
+              td.text-start Unión Europea - Reglamento UE 2014/47
+              td.text-start Establece requisitos técnicos para vehículos de carga. <br>Incluye inspecciones periódicas de sistemas de amarre. <br>Exige que la carga no sobresalga de los límites del vehículo.
 
-            tr
+            tr.bg-table-01
               td(rowspan="3") Regionales
-              td CEMT (Conferencia Europea de Ministros de Transporte)
-              td Fija límites de peso y dimensiones para camiones en Europa. <br>Promueve estándares de seguridad en logística internacional.
+              td.text-start CEMT (Conferencia Europea de Ministros de Transporte)
+              td.text-start Fija límites de peso y dimensiones para camiones en Europa. <br>Promueve estándares de seguridad en logística internacional.
 
-            tr
-              td Resolución 4100 de 2004 (Ministerio de Transporte)
-              td Establece las condiciones técnicas para el transporte de carga por carretera. <br>Exige que la carga esté correctamente asegurada para evitar desplazamientos. <br>Prohíbe el transporte de mercancías sueltas sin sujeción adecuada.
+            tr.bg-table-01
+              td.text-start Resolución 4100 de 2004 (Ministerio de Transporte)
+              td.text-start Establece las condiciones técnicas para el transporte de carga por carretera. <br>Exige que la carga esté correctamente asegurada para evitar desplazamientos. <br>Prohíbe el transporte de mercancías sueltas sin sujeción adecuada.
 
-            tr
-              td Decreto 1079 de 2015 (Reglamento de Tránsito)
-              td Obliga a los conductores a garantizar la estabilidad de la carga. <br>Impone multas por carga mal asegurada que represente riesgo vial.
+            tr.bg-table-01
+              td.text-start Decreto 1079 de 2015 (Reglamento de Tránsito)
+              td.text-start Obliga a los conductores a garantizar la estabilidad de la carga. <br>Impone multas por carga mal asegurada que represente riesgo vial.
 
             tr
               td(rowspan="3") Colombianas
-              tdNormas Icontec <br>NTC 5205 <br>NTC 1695
-              td Requisitos para flejes metálicos en carga. <br>Estándares para embalajes de madera
+              td.text-start Normas Icontec <br>NTC 5205 <br>NTC 1695
+              td.text-start Requisitos para flejes metálicos en carga. <br>Estándares para embalajes de madera
             tr
-              td Superintendencia de Puertos y Transporte
-              td Realiza operativos de control para verificar el correcto aseguramiento de carga. <br>Aplica sanciones por incumplimiento.
+              td.text-start Superintendencia de Puertos y Transporte
+              td.text-start Realiza operativos de control para verificar el correcto aseguramiento de carga. <br>Aplica sanciones por incumplimiento.
             tr
-              td DIAN
-              td Exige que la carga en contenedores cumpla con normas internacionales para exportaciones. <br>Rechaza mercancías mal estibadas que puedan sufrir daños en tránsito.
+              td.text-start DIAN
+              td.text-start Exige que la carga en contenedores cumpla con normas internacionales para exportaciones. <br>Rechaza mercancías mal estibadas que puedan sufrir daños en tránsito.
 </template>
 
 <script>
