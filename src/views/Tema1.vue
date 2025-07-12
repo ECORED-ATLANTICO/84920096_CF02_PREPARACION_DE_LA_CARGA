@@ -47,14 +47,14 @@
             p.mb-0 Estas consecuencias afectan directamente la rentabilidad, la logística y la reputación de las empresas involucradas en la cadena de suministro.
 
     .bg_img_2.mb-3
-      .row.justify-content-center.align-items-center.mb-3
+      .row.justify-content-center.align-items-center.mb-5
         .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid")
             .crd_hover_txt--body.color-primario
-              h5.mb-3.text-center Daños  en la mercancía
+              h5.mb-4.text-center Daños en la mercancía
               p.mb-0.text-small Cuando los materiales se mueven de forma insegura, el impacto o la vibración durante el transporte pueden causar roturas, deformaciones o pérdida de valor en los productos.
         .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
           .crd_hover_txt(data-aos="flip-left")
@@ -62,7 +62,7 @@
               figure
                 img(src="@/assets/curso/temas/tema_1/img_7.png", class="img-fluid")
             .crd_hover_txt--body.color-acento-contenido
-              h5.mb-3.text-center Accidentes laborales
+              h5.mb-4.text-center Accidentes laborales
               p.mb-0.text-small Cargas inestables o mal sujetas pueden caer, provocando lesiones graves a los operadores de montacargas o al personal cercano.
         .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
           .crd_hover_txt(data-aos="flip-left")
@@ -70,7 +70,7 @@
               figure
                 img(src="@/assets/curso/temas/tema_1/img_8.png", class="img-fluid")
             .crd_hover_txt--body.color-primario
-              h5.mb-3.text-center Retrasos en la cadena de suministro
+              h5.mb-4.text-center Retrasos en la cadena de suministro
               p.mb-0.text-small Una carga mal asegurada puede provocar caídas o daños durante el transporte, lo que inevitablemente causa retrasos. Cuando un producto no llega a tiempo, toda la operación se ve afectada.
         .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
           .crd_hover_txt(data-aos="flip-left")
@@ -78,7 +78,7 @@
               figure
                 img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid")
             .crd_hover_txt--body.color-acento-contenido
-              h5.mb-3.text-center Costos adicionales de reemplazo y mantenimiento
+              h5.mb-4.text-center Costos adicionales de reemplazo y mantenimiento
               p.mb-0.text-small Cuando los materiales se dañan durante el transporte, la empresa debe asumir gastos adicionales, como: reemplazo de productos afectados y reparación de equipos dañados.
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10
@@ -189,14 +189,13 @@
     .mb-3
 
     .bg_img_3.mb-3
-      p.mb-0 Existen múltiples procedimientos para garantizar la carga a utilizar dependiendo el objeto comercial y el medio de transporte, adaptándose a una cuestión de fragilidad, peso, tamaño y de normas complementarias. 
-      p.mb-5 A continuación, se describen los principales métodos de aseguramiento de la carga:
+      p.mb-5 Existen múltiples procedimientos para garantizar la carga a utilizar dependiendo el objeto comercial y el medio de transporte, adaptándose a una cuestión de fragilidad, peso, tamaño y de normas complementarias. A continuación, se describen los principales métodos de aseguramiento de la carga:
 
       .titulo-sexto.color-acento-contenido
         h5 Tabla 1.
         |  Métodos de aseguramiento de la carga
       .tabla-a.mb-5
-        table
+        table(data-aos="zoom-in-right")
           caption 
             p <b>Fuente:</b> SENA, 2025.
           thead
@@ -247,14 +246,13 @@
         .col-12.col-lg-8
           .cajon.color-acento-contenido-ac5.p-3.mb-3
             p.mb-0 El aseguramiento de carga está regulado por estándares internacionales, regionales y nacionales para garantizar la seguridad en el transporte, prevenir accidentes y asegurar el cumplimiento de requisitos legales.
-          p.mb-0 Para la seguridad y eficiencia en las operaciones logísticas, el cumplimiento de las normativas nacionales e internacionales es fundamental. En Colombia, el Ministerio de Transporte, la DIAN y la Superintendencia de Puertos coercitiva protegen el aseguramiento de carga correctamente con multas para quien no cumpla. Las empresas deben entregar la formación necesaria a su plantel y trabajar con materiales certificados, bancales de riesgo legal y operacional. 
-          p.mb-0 A continuación, se detallan las principales normativas aplicables:
+          p.mb-0 Para la seguridad y eficiencia en las operaciones logísticas, el cumplimiento de las normativas nacionales e internacionales es fundamental. En Colombia, el Ministerio de Transporte, la DIAN y la Superintendencia de Puertos coercitiva protegen el aseguramiento de carga correctamente con multas para quien no cumpla. Las empresas deben entregar la formación necesaria a su plantel y trabajar con materiales certificados, bancales de riesgo legal y operacional. A continuación, se detallan las principales normativas aplicables:
 
       .titulo-sexto.color-acento-contenido
         h5 Tabla 2.
         |  Normativa para el aseguramiento de la carga
       .tabla-a.mb-5
-        table
+        table(data-aos="zoom-in-right")
           caption 
             p <b>Fuente:</b> SENA, 2025.
           thead

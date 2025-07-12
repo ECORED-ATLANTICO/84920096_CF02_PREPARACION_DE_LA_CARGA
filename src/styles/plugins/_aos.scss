@@ -873,7 +873,7 @@
     transform: translateZ(0) scale(1)
   }
 
-  html:not(.no-js) [data-aos=zoom-in] {
+  html:not(.no-js) [data-aos=-in] {
     -webkit-transform: scale(.6);
     transform: scale(.6)
   }
@@ -914,7 +914,7 @@
   }
 
   html:not(.no-js) [data-aos=zoom-out-right] {
-    -webkit-transform: translate3d(-100px, 0, 0) scale(1.2);
+    -webkit-transform: translate3d(zoom-100px, 0, 0) scale(1.2);
     transform: translate3d(-100px, 0, 0) scale(1.2)
   }
 

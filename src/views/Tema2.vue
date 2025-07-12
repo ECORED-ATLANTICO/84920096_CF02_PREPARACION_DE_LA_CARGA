@@ -23,7 +23,7 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-4.mb-lg-0.mb-3
-          figure
+          figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
         .col-12.col-lg-8
           p.mb-3 Las paletas o (<I>palets</I>) son plataformas planas, generalmente de madera, plástico o metal, diseñadas para facilitar el almacenamiento, transporte y manipulación de mercancías mediante grúas, carretillas elevadoras o transpaletas. Son un elemento clave en la logística y la cadena de suministro.
@@ -79,11 +79,10 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-4.mb-lg-0.mb-3
-        figure
+        figure(data-aos="zoom-out-up")
           img(src='@/assets/curso/temas/tema_2/img_7.png', class="img-fluid")
       .col-12.col-lg-8
-        p.mb-0 Las paletas son plataformas esenciales en logística, diseñadas para almacenar y transportar mercancías de manera eficiente. 
-        p.mb-3 Cada tipo se adapta a necesidades específicas de carga, higiene o transporte, optimizando la cadena de suministro.
+        p.mb-4 Las paletas son plataformas esenciales en logística, diseñadas para almacenar y transportar mercancías de manera eficiente. Cada tipo se adapta a necesidades específicas de carga, higiene o transporte, optimizando la cadena de suministro.
         .cajon.color-primario-adicional-2.p-4.mb-3
           p.mb-0 Según el material, las paletas se clasifican con base en la materia prima con la que han sido fabricadas, lo cual influye directamente en su resistencia, durabilidad, reutilización y condiciones de uso. 
           p.mb-0 Esta clasificación permite seleccionar la paleta adecuada según el tipo de carga, entorno logístico o requisitos sanitarios, siendo los más comunes: 
@@ -206,19 +205,22 @@
     
     .tarjeta_img_2
       .row.justify-content-center.align-items-center
-        .col-8.col-lg-3.mb-lg-0.mb-3
+        .col-1.col-lg-1
+        .col-8.col-lg-3
           figure
-            img(src="@/assets/curso/temas/tema_2/img_17.png", class="img-fluid", style="transform: translateY(-10px); width: 100% !important; max-width: 1500% !important; height: 100% !important; max-height: 1500% !important; display: flex;")
+            img(src="@/assets/curso/temas/tema_2/img_17.png", class="img-fluid", style="transform: translateY(-10px); width: 100% !important; max-width: 1500% !important; height: 100% !important; max-height: 1500% !important; display: flex;")    
+        .d-none.d-lg-block.col-lg-1
+          figure
+            img(src="@/assets/curso/temas/tema_2/img_17_1.png", class="img-fluid", style="transform: translateY(-10px); width: 70% !important; max-width: 1500% !important; height: 70% !important; max-height: 1500% !important; display: flex;")    
         .col-12.col-lg-7
-          p.mb-0  Según sus dimensiones, las paletas se clasifican atendiendo al largo y ancho estandarizado de su superficie útil. Esta categorización es clave para garantizar la compatibilidad con contenedores, estanterías, vehículos de transporte y sistemas de almacenamiento automatizado. 
-          p.mb-0 Las dimensiones varían según normativas internacionales, siendo las más utilizadas las de tipo europeo (EUR), americano (GMA) y otras adaptadas a sectores o regiones específica:
+          p.mb-0 Según sus dimensiones, las paletas se clasifican atendiendo al largo y ancho estandarizado de su superficie útil. Esta categorización es clave para garantizar la compatibilidad con contenedores, estanterías, vehículos de transporte y sistemas de almacenamiento automatizado. Las dimensiones varían según normativas internacionales, siendo las más utilizadas las de tipo europeo (EUR), americano (GMA) y otras adaptadas a sectores o regiones específica:
      
     .bg_img_6.mb-3
       .row.justify-content-center.align-items-center
-        .col-12.col-lg-4.mb-lg-0.mb-3
+        .col-12.col-lg-5.mb-lg-0.mb-3
           figure
             img(src='@/assets/curso/temas/tema_2/img_19.png', class="img-fluid")
-        .col-12.col-lg-4.mb-lg-0.mb-3
+        .col-12.col-lg-5.mb-lg-0.mb-3
           figure
             img(src='@/assets/curso/temas/tema_2/img_20.png', class="img-fluid")
 
@@ -235,8 +237,8 @@
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
-              .col-12.col-lg-12.mb-3
-                figure
+              .col-6.col-lg-12.mb-3
+                figure(data-aos="zoom-out-up")
                   img(src="@/assets/curso/temas/tema_2/img_21.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Durabilidad 
@@ -245,8 +247,8 @@
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
-              .col-12.col-lg-12.mb-3
-                figure
+              .col-6.col-lg-12.mb-3
+                figure(data-aos="zoom-out-up")
                   img(src="@/assets/curso/temas/tema_2/img_22.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Peso 
@@ -255,8 +257,8 @@
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
-              .col-12.col-lg-12.mb-3
-                figure
+              .col-6.col-lg-12.mb-3
+                figure(data-aos="zoom-out-up")
                   img(src="@/assets/curso/temas/tema_2/img_23.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Resistencia 
@@ -265,8 +267,8 @@
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
-              .col-12.col-lg-12.mb-3
-                figure
+              .col-6.col-lg-12.mb-3
+                figure(data-aos="zoom-out-up")
                   img(src="@/assets/curso/temas/tema_2/img_24.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Higiene 
@@ -275,8 +277,8 @@
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
-              .col-12.col-lg-12.mb-3
-                figure
+              .col-6.col-lg-12.mb-3
+                figure(data-aos="zoom-out-up")
                   img(src="@/assets/curso/temas/tema_2/img_25.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Sostenibilidad 
@@ -285,8 +287,8 @@
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
-              .col-12.col-lg-12.mb-3
-                figure
+              .col-6.col-lg-12.mb-3
+                figure(data-aos="zoom-out-up")
                   img(src="@/assets/curso/temas/tema_2/img_26.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Adaptabilidad 
