@@ -38,7 +38,7 @@
                 img(src='@/assets/curso/temas/tema_1/img_3.png', class="img-fluid")
     .row.d-flex.align-items-stretch.justify-content-center.mb-5
       .col-12.col-lg-4.d-flex.mb-lg-0.mb-3(data-aos="flip-left")
-        figured-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
+        figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
           img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid h-100")
       .col-12.col-lg-8.d-flex(data-aos="zoom-in-right")
         .d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100

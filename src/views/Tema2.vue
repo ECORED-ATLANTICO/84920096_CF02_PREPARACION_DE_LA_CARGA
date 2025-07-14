@@ -203,7 +203,7 @@
               p.p-3.pb-0.mb-3 Diseño más robusto, con bloques de soporte en las esquinas.
 
     
-    .tarjeta_img_2.mb-3
+    .tarjeta_img_2.mb-3(data-aos="zoom-in-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-8.col-lg-3.mb-0
           figure

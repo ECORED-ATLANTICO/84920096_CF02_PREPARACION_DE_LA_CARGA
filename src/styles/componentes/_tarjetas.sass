@@ -84,6 +84,22 @@
       background-color: lighten($color-primario, 50%)
       color: textColor(lighten($color-primario, 50%))
       border: solid 4px $color-primario
+  &.color-primario-10
+    background-color: $color-primario-10
+    *
+      color: textColor($color-primario-10)
+    &--borde
+      background-color: lighten($color-primario-10, 50%)
+      color: textColor(lighten($color-primario-10, 50%))
+      border: solid 4px $color-primario-10
+  &.color-primario-20
+    background-color: $color-primario-20
+    *
+      color: textColor($color-primario-20)
+    &--borde
+      background-color: lighten($color-primario-20, 50%)
+      color: textColor(lighten($color-primario-20, 50%))
+      border: solid 4px $color-primario-20
   &.color-secundario
     background-color: $color-secundario
     *
@@ -108,6 +124,14 @@
       background-color: lighten($color-acento-contenido-5, 50%)
       color: textColor(lighten($color-acento-contenido-5, 50%))
       border: solid 4px $color-acento-contenido-5
+  &.color-acento-contenido-20
+    background-color: $color-acento-contenido-20
+    *
+      color: textColor($color-acento-contenido-20)
+    &--borde
+      background-color: lighten($color-acento-contenido-20, 50%)
+      color: textColor(lighten($color-acento-contenido-20, 50%))
+      border: solid 4px $color-acento-contenido-20
   &.color-acento-botones
     background-color: $color-acento-botones
     *
@@ -142,6 +166,44 @@
       color: textColor(lighten($color-sistema-h, 50%))
       border: solid 4px $color-sistema-h
 
+  &.color-sistema-h-2
+    background-color: $color-sistema-h
+    border-radius: 20px
+    padding: 8rem 1rem 1rem 1rem 
+    position: relative
+    display: flex
+    flex-direction: column
+    *
+      color: textColor($color-sistema-h)
+    &--borde
+      background-color: lighten($color-sistema-h, 50%)
+      color: textColor(lighten($color-sistema-h, 50%))
+      border: solid 4px $color-sistema-h
+
+  &--1::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_3/img_4.svg')
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)
+  &--2::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_3/img_5.svg')
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)
+  &--3::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_3/img_6.svg')
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)
+  &--4::before
+    position: absolute
+    content: url('../assets/curso/temas/tema_3/img_7.svg')
+    top: 20px
+    left: 50%
+    transform: translateX(-50%)
 // TARJETAS CON AVATAR
 .tarjeta-avatar
   height: 100%
