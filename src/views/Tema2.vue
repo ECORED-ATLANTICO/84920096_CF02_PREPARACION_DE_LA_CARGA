@@ -18,19 +18,19 @@
       separador
 
       #t_2_1.titulo-segundo.color-acento-contenido
-        .h2(data-aos="fade-right") 2.1.	Concepto
+        .h2(data-aos="fade-right") 2.1	Concepto
       .mb-3
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-4.mb-lg-0.mb-3
+        .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-lg-8(data-aos="zoom-in-right")
           p.mb-3 Las paletas o (<I>palets</I>) son plataformas planas, generalmente de madera, plástico o metal, diseñadas para facilitar el almacenamiento, transporte y manipulación de mercancías mediante grúas, carretillas elevadoras o transpaletas. Son un elemento clave en la logística y la cadena de suministro.
           p.mb-0 La principal función de las paletas es agrupar productos en una sola unidad, lo que facilita su manejo, transporte y almacenamiento.
       
       .row.d-flex.align-items-stretch.justify-content-center.mb-0
-        .col-12.col-lg-5.d-flex.mb-3
+        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -40,7 +40,7 @@
                 .col-12.col-lg-10
                   h6 Portabilidad
                   p.mb-0 Conseguir que los artículos sean fáciles de transportar es el objetivo principal.
-        .col-12.col-lg-5.d-flex.mb-3
+        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -50,7 +50,7 @@
                 .col-12.col-lg-10
                   h6 Fuerza
                   p.mb-0 Los <I>palets</I> son más fuertes que otras opciones de envío como cajas o envoltorios de plástico.
-        .col-12.col-lg-5.d-flex.mb-3
+        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -60,7 +60,7 @@
                 .col-12.col-lg-10
                   h6 Peso y tamaño
                   p.mb-0 En la actualidad los <I>palets</I> son más ligeros y resistentes, y la fabricación de nuevas paletas que se acoplan reducen el espacio de almacenamiento.
-        .col-12.col-lg-5.d-flex.mb-3
+        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -74,14 +74,14 @@
     separador
 
     #t_2_2.titulo-segundo.color-acento-contenido
-      .h2(data-aos="fade-right") 2.2.	Tipos
+      .h2(data-aos="fade-right") 2.2	Tipos
     .mb-3
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-4.mb-lg-0.mb-3
-        figure(data-aos="zoom-out-up")
+      .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
+        figure
           img(src='@/assets/curso/temas/tema_2/img_7.png', class="img-fluid")
-      .col-12.col-lg-8
+      .col-12.col-lg-8(data-aos="zoom-in-right")
         p.mb-4 Las paletas son plataformas esenciales en logística, diseñadas para almacenar y transportar mercancías de manera eficiente. Cada tipo se adapta a necesidades específicas de carga, higiene o transporte, optimizando la cadena de suministro.
         .cajon.color-primario-adicional-2.p-4.mb-3
           p.mb-0 Según el material, las paletas se clasifican con base en la materia prima con la que han sido fabricadas, lo cual influye directamente en su resistencia, durabilidad, reutilización y condiciones de uso. 
@@ -158,7 +158,7 @@
               img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid")
     
     .row.justify-content-center.align-items-center.mb-3
-      .col-12.col-lg-10.mb-3
+      .col-12.col-lg-10.mb-3(data-aos="zoom-in-right")
         .tarjeta.color-acento-contenido-5.p-3.rounded-0
           .row.justify-content-center.align-items-center
             .col-3.col-lg-1.mb-lg-0.mb-3
@@ -169,58 +169,57 @@
               p.mb-0 Esta clasificación influye en la estabilidad de la carga, la facilidad de manipulación y la compatibilidad con equipos de transporte como montacargas o estanterías. Entre las más comunes se encuentran: 
     
     .row.d-flex.justify-content-center.align-items-stretch.mb-5
-      .col-12.col-lg-6.mb-3.d-flex
+      .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
           .tarjeta.color-primario.d-flex.flex-column.h-100.rounded-0
             figure.mb-0
-              img(src="@/assets/curso/temas/tema_2/img_13.png", class="img-fluid w-100")
+              img(src="@/assets/curso/temas/tema_2/img_13.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
               h5.p-3.pb-0.mb-0 <I>palets</I> de dos entradas (2 vías)
               p.p-3.pb-0.mb-3 Solo se puede manipular por dos lados con carretilla.
-      .col-12.col-lg-6.mb-3.d-flex
+      .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
           .tarjeta.color-acento-contenido.d-flex.flex-column.h-100.rounded-0
             figure.mb-0
-              img(src="@/assets/curso/temas/tema_2/img_14.png", class="img-fluid w-100")
+              img(src="@/assets/curso/temas/tema_2/img_14.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
               h5.p-3.pb-0.mb-0 <I>palets</I> de cuatro entradas (4 vías)
               p.p-3.pb-0.mb-3 Permite el acceso desde cualquier lado, más versátil.
-      .col-12.col-lg-6.mb-3.d-flex
+      .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
           .tarjeta.color-primario.d-flex.flex-column.h-100.rounded-0
             figure.mb-0
-              img(src="@/assets/curso/temas/tema_2/img_15.png", class="img-fluid w-100")
+              img(src="@/assets/curso/temas/tema_2/img_15.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
               h5.p-3.pb-0.mb-0 <I>palets</I> reversible (de doble cara)
               p.p-3.pb-0.mb-3 Tienen tablas tanto en la parte superior como inferior, soportando más peso.
-      .col-12.col-lg-6.mb-3.d-flex
+      .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
           .tarjeta.color-acento-contenido.d-flex.flex-column.h-100.rounded-0
             figure.mb-0
-              img(src="@/assets/curso/temas/tema_2/img_16.png", class="img-fluid w-100")
+              img(src="@/assets/curso/temas/tema_2/img_16.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
               h5.p-3.pb-0.mb-0 <I>palets</I> cerrado (bloque)
               p.p-3.pb-0.mb-3 Diseño más robusto, con bloques de soporte en las esquinas.
 
     
-    .tarjeta_img_2
-      .row.justify-content-center.align-items-center
-        .col-1.col-lg-1
-        .col-8.col-lg-3
+    .tarjeta_img_2.mb-3
+      .row.justify-content-center.align-items-center.mb-0
+        .col-8.col-lg-3.mb-0
           figure
             img(src="@/assets/curso/temas/tema_2/img_17.png", class="img-fluid", style="transform: translateY(-10px); width: 100% !important; max-width: 1500% !important; height: 100% !important; max-height: 1500% !important; display: flex;")    
-        .d-none.d-lg-block.col-lg-1
+        .d-none.d-lg-block.col-lg-1.mb-0
           figure
             img(src="@/assets/curso/temas/tema_2/img_17_1.png", class="img-fluid", style="transform: translateY(-10px); width: 70% !important; max-width: 1500% !important; height: 70% !important; max-height: 1500% !important; display: flex;")    
-        .col-12.col-lg-7
+        .col-12.col-lg-7.mb-0
           p.mb-0 Según sus dimensiones, las paletas se clasifican atendiendo al largo y ancho estandarizado de su superficie útil. Esta categorización es clave para garantizar la compatibilidad con contenedores, estanterías, vehículos de transporte y sistemas de almacenamiento automatizado. Las dimensiones varían según normativas internacionales, siendo las más utilizadas las de tipo europeo (EUR), americano (GMA) y otras adaptadas a sectores o regiones específica:
      
     .bg_img_6.mb-3
       .row.justify-content-center.align-items-center
-        .col-12.col-lg-5.mb-lg-0.mb-3
+        .col-12.col-lg-5.mb-lg-0.mb-3(data-aos="flip-left")
           figure
             img(src='@/assets/curso/temas/tema_2/img_19.png', class="img-fluid")
-        .col-12.col-lg-5.mb-lg-0.mb-3
+        .col-12.col-lg-5.mb-lg-0.mb-3(data-aos="flip-left")
           figure
             img(src='@/assets/curso/temas/tema_2/img_20.png', class="img-fluid")
 
@@ -232,63 +231,63 @@
 
     p.mb-3 Las paletas se definen por un conjunto de atributos clave que determinan su uso, eficiencia y vida útil. Estas son las características principales:
     
-    .row.d-flex.align-items-stretch.justify-content-center.mb-0
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3
+    .row.d-flex.align-items-stretch.justify-content-center.mb-0 
+      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
               .col-6.col-lg-12.mb-3
-                figure(data-aos="zoom-out-up")
+                figure
                   img(src="@/assets/curso/temas/tema_2/img_21.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Durabilidad 
                 p.text-center.mb-0 Se refiere a la vida útil del <I>palet</I> bajo condiciones normales de uso.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3
+      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
               .col-6.col-lg-12.mb-3
-                figure(data-aos="zoom-out-up")
+                figure
                   img(src="@/assets/curso/temas/tema_2/img_22.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Peso 
                 p.text-center.mb-0 Influye en la manejo y costos de transporte.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3
+      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
               .col-6.col-lg-12.mb-3
-                figure(data-aos="zoom-out-up")
+                figure
                   img(src="@/assets/curso/temas/tema_2/img_23.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Resistencia 
                 p.text-center.mb-0 Capacidad para soportar cargas sin deformarse.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3
+      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
               .col-6.col-lg-12.mb-3
-                figure(data-aos="zoom-out-up")
+                figure
                   img(src="@/assets/curso/temas/tema_2/img_24.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Higiene 
                 p.text-center.mb-0 Facilidad de limpieza y prevención de contaminación.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3
+      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
               .col-6.col-lg-12.mb-3
-                figure(data-aos="zoom-out-up")
+                figure
                   img(src="@/assets/curso/temas/tema_2/img_25.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Sostenibilidad 
                 p.text-center.mb-0 Impacto ambiental y posibilidad de reciclaje.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3
+      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
               .col-6.col-lg-12.mb-3
-                figure(data-aos="zoom-out-up")
+                figure
                   img(src="@/assets/curso/temas/tema_2/img_26.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Adaptabilidad 
@@ -303,7 +302,7 @@
 
       p.mb-3 Las paletas son fundamentales en la cadena logística, y su correcto uso garantiza eficiencia, seguridad y protección de la carga. A continuación, se detallan los métodos clave:
       
-      .row.d-flex.align-items-start.justify-content-center.mb-3
+      .row.d-flex.align-items-stretch.justify-content-center.mb-3
         .col-12.col-lg-8.order-2.order-lg-1.mb-3
           AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Carga")
@@ -316,9 +315,9 @@
               p.ps-5.mb-0 Se apilan en estanterías metálicas o directamente en suelo, respetando límites de altura y peso para prevenir colapsos. Se usan bases para evitar humedad.
             div(titulo="Descarga")
               p.ps-5.mb-0 Al llegar a destino, se retira la mercancía del <I>palet</I> con cuidado, utilizando maquinaria o manualmente, y se almacena o reutiliza el <I>palet</I> según su condición.
-        .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-3
-          figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
-            img(src='@/assets/curso/temas/tema_2/img_27.png', class="img-fluid h-100")
+        .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-3(data-aos="flip-left")
+          figure.w-100.h-100.d-flex.flex-column
+            img(src='@/assets/curso/temas/tema_2/img_27.png', class="img-fluid w-100 h-100")
     
 
 </template>

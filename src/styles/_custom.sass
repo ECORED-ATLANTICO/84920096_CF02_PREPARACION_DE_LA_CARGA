@@ -240,9 +240,9 @@ figcaption
     background-repeat: no-repeat
     background-position: center
     background-size: cover
-    border-radius: 15px 
-    padding: 20px
-    max-width: 100% 
+    border-top-left-radius: 20px
+    border-bottom-right-radius: 20px
+    padding: 30px
  
 
 ///////// Card hover --------------------------------------
@@ -290,3 +290,30 @@ figcaption
   color: $color-sistema-texto
 .b 
   font-weight: bold
+
+// acordion
+.acordion__activo
+  background-color: $color-primario-5 
+
+// tarjeta-tabs-a
+.tarjeta-tabs-a
+  margin-bottom: 0 !important
+  .tabs-a__tab
+    margin-bottom: 10px !important
+    background-color: $color-sistema-f
+    &:hover
+      background-color: $color-adicional-4
+      color: $white
+    &::before
+      background-color: $color-adicional-4
+      color: $white
+    &__selected
+      background-color: $color-adicional-4
+      color: $white
+  .tabs-a__content-item
+    height: 100%
+  &__tarjeta
+    display: flex
+    flex-direction: column
+    gap: 3px
+    justify-content: center

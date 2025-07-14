@@ -21,7 +21,7 @@
     background-color: $color-sistema-e
     
   &--color-primario-5
-    background-color: $color-primario-5
+    background-color: $color-sistema-h
     &:active, &:focus, &:hover
       background-color: $color-primario-5
   &--fondo__slider
@@ -116,6 +116,23 @@
       background-color: lighten($color-acento-botones, 50%)
       color: textColor(lighten($color-acento-botones, 50%))
       border: solid 4px $color-acento-botones
+  &.color-adicional-4
+    background-color: $color-adicional-4
+    *
+      color: textColor($color-adicional-4)
+    &--borde
+      background-color: lighten($color-adicional-4, 50%)
+      color: textColor(lighten($color-adicional-4, 50%))
+      border: solid 4px $color-adicional-4
+  &.color-adicional-5
+    background-color: $color-adicional-5
+    *
+      color: textColor($color-adicional-5)
+    &--borde
+      background-color: lighten($color-adicional-5, 50%)
+      color: textColor(lighten($color-adicional-5, 50%))
+      border: solid 4px $color-adicional-5
+
   &.color-sistema-h
     background-color: $color-sistema-h
     *

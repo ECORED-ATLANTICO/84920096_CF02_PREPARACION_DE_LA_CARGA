@@ -37,10 +37,10 @@
               figure
                 img(src='@/assets/curso/temas/tema_1/img_3.png', class="img-fluid")
     .row.d-flex.align-items-stretch.justify-content-center.mb-5
-      .col-12.col-lg-4.d-flex.mb-lg-0.mb-3
+      .col-12.col-lg-4.d-flex.mb-lg-0.mb-3(data-aos="flip-left")
         figured-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
           img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid h-100")
-      .col-12.col-lg-8.d-flex
+      .col-12.col-lg-8.d-flex(data-aos="zoom-in-right")
         .d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
           .tarjeta_img_1.w-100.h-100
             p.mb-0 Cuando una carga no se asegura de forma adecuada, se generan riesgos que pueden comprometer tanto la integridad de la mercancía como la seguridad del personal y la eficiencia operativa. 
@@ -81,12 +81,12 @@
               h5.mb-4.text-center Costos adicionales de reemplazo y mantenimiento
               p.mb-0.text-small Cuando los materiales se dañan durante el transporte, la empresa debe asumir gastos adicionales, como: reemplazo de productos afectados y reparación de equipos dañados.
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-10
+        .col-12.col-lg-10(data-aos="flip-left")
           .cajon.color-primario-adicional-2.p-4.mb-3
             p.mb-0 El aseguramiento de la carga bien establece un proceso estructurado que ofrece a la carga estabilidad y seguridad durante su traslado. 
             p.mb-0 Los siguientes pasos claros incluyen:
     .row.d-flex.align-items-start.justify-content-center.mb-3(data-aos="zoom-in")
-      .col-10.col-lg-4.d-flex.mb-lg-0.mb-3
+      .col-10.col-lg-4.d-flex.mb-lg-0.mb-3(data-aos="flip-left")
         figure.d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
           img(src='@/assets/curso/temas/tema_1/img_10.png', class="img-fluid h-100")
       .col-12.col-lg-8.mb-lg-0.mb-3
@@ -189,7 +189,7 @@
     .mb-3
 
     .bg_img_3.mb-3
-      p.mb-5 Existen múltiples procedimientos para garantizar la carga a utilizar dependiendo el objeto comercial y el medio de transporte, adaptándose a una cuestión de fragilidad, peso, tamaño y de normas complementarias. A continuación, se describen los principales métodos de aseguramiento de la carga:
+      p.mb-5(data-aos="zoom-in-right") Existen múltiples procedimientos para garantizar la carga a utilizar dependiendo el objeto comercial y el medio de transporte, adaptándose a una cuestión de fragilidad, peso, tamaño y de normas complementarias. A continuación, se describen los principales métodos de aseguramiento de la carga:
 
       .titulo-sexto.color-acento-contenido
         h5 Tabla 1.
@@ -240,13 +240,13 @@
 
     .bg_img_4.mb-3
       .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-lg-4.mb-lg-0.mb-3
+        .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/temas/tema_1/img_11.png', class="img-fluid")
         .col-12.col-lg-8
-          .cajon.color-acento-contenido-ac5.p-3.mb-3
+          .cajon.color-acento-contenido-ac5.p-3.mb-3(data-aos="zoom-in-right")
             p.mb-0 El aseguramiento de carga está regulado por estándares internacionales, regionales y nacionales para garantizar la seguridad en el transporte, prevenir accidentes y asegurar el cumplimiento de requisitos legales.
-          p.mb-0 Para la seguridad y eficiencia en las operaciones logísticas, el cumplimiento de las normativas nacionales e internacionales es fundamental. En Colombia, el Ministerio de Transporte, la DIAN y la Superintendencia de Puertos coercitiva protegen el aseguramiento de carga correctamente con multas para quien no cumpla. Las empresas deben entregar la formación necesaria a su plantel y trabajar con materiales certificados, bancales de riesgo legal y operacional. A continuación, se detallan las principales normativas aplicables:
+          p.mb-0(data-aos="zoom-in-right") Para la seguridad y eficiencia en las operaciones logísticas, el cumplimiento de las normativas nacionales e internacionales es fundamental. En Colombia, el Ministerio de Transporte, la DIAN y la Superintendencia de Puertos coercitiva protegen el aseguramiento de carga correctamente con multas para quien no cumpla. Las empresas deben entregar la formación necesaria a su plantel y trabajar con materiales certificados, bancales de riesgo legal y operacional. A continuación, se detallan las principales normativas aplicables:
 
       .titulo-sexto.color-acento-contenido
         h5 Tabla 2.
