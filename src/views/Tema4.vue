@@ -112,30 +112,37 @@
 
     .bg_img_13.mb-3
       .row.justify-content-center.align-items-center.mb-0
-        .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
+        .col-10.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/temas/tema_4/img_10.png', class="img-fluid")
         .col-12.col-lg-8
           .custom-slider.p-5.p-sm-3
-            SlyderF(columnas="col-12 col-sm-5 col-md-5 col-lg-5").p-2.rounded-3
-              .tarjeta.color-sistema-h-2
+            SlyderF(columnas="col-12 col-sm-12 col-md-6 col-lg-4").p-5.rounded-3
+              .tarjeta.color-sistema-h-3
                 .tarjeta--1
-                .tarjeta--slider__title.mb-3.text-center.fw-bold Protección 
-                .tarjeta--slider__content.text-center Evita daños por impactos, humedad, vibraciones o contaminación durante el transporte.
-              .tarjeta.color-sistema-h-2
+                .tarjeta--slider__title.mb-3.text-center.fw-bold Resistencia 
+                .tarjeta--slider__content.text-center Fabricados con materiales robustos como acero o aluminio, capaces de soportar las condiciones del transporte y proteger la carga.              
+              .tarjeta.color-sistema-h-3
                 .tarjeta--2
-                .tarjeta--slider__title.mb-3.text-center.fw-bold  Unidad de carga
-                .tarjeta--slider__content.text-center Permite agrupar productos en lotes por ejemplo cajas sobre una paleta, para optimizar el almacenamiento y transporte.
-              .tarjeta.color-sistema-h-2
+                .tarjeta--slider__title.mb-3.text-center.fw-bold  Estanqueidad
+                .tarjeta--slider__content.text-center Protección contra agua, polvo y contaminación externa.              
+              .tarjeta.color-sistema-h-3
                 .tarjeta--3
-                .tarjeta--slider__title.mb-3.text-center.fw-bold  Compatibilidad con sistemas logísticos
-                .tarjeta--slider__content.text-center Debe adaptarse a <I>palets</I>, contenedores, bandas transportadoras y equipos de manipulación (montacargas, transpaletas, entre otros).
-              .tarjeta.color-sistema-h-2
+                .tarjeta--slider__title.mb-3.text-center.fw-bold Estandarización
+                .tarjeta--slider__content.text-center Los contenedores tienen dimensiones estándar (20, 40 pies, entre otros) para facilitar el manejo y la carga en diferentes medios de transporte.              
+              .tarjeta.color-sistema-h-3
                 .tarjeta--4
-                .tarjeta--slider__title.mb-3.text-center.fw-bold  Información y trazabilidad
-                .tarjeta--slider__content.text-center Incluye etiquetas, códigos de barras o RFID para identificación y rastreo.
+                .tarjeta--slider__title.mb-3.text-center.fw-bold  Manipulación
+                .tarjeta--slider__content.text-center Diseñados para ser apilables y movidos fácilmente mediante grúas, carretillas elevadoras, entre otros.
+              .tarjeta.color-sistema-h-3
+                .tarjeta--5
+                .tarjeta--slider__title.mb-3.text-center.fw-bold  Seguridad
+                .tarjeta--slider__content.text-center Cerraduras y sistemas de seguridad que garantizan la protección de la carga durante el transporte.
+              .tarjeta.color-sistema-h-3
+                .tarjeta--6
+                .tarjeta--slider__title.mb-3.text-center.fw-bold  Uso multimodal
+                .tarjeta--slider__content.text-center Compatibles con barcos, camiones y trenes.
     
-
     .bg_img_14.mb-3
 
       separador
