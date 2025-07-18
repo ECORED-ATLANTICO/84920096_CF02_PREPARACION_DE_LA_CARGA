@@ -112,7 +112,7 @@
             p Fabricadas en polietileno o polipropileno, estas paletas son resistentes a la humedad, higiénicas y de larga duración. Suelen usarse en industrias con altos estándares sanitarios.
             h5 Ventajas:
             ul(style="list-style-type: disc; padding-left: 20px")
-              li  Fáciles de limpiar y desinfectar
+              li  Fáciles de limpiar y desinfectar.
               li  Ligeras, resistentes y 100 % reciclables.
               li  No absorben humedad ni generan astillas.
             h5 Desventajas:
@@ -175,7 +175,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/tema_2/img_13.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
-              h5.p-3.pb-0.mb-0 <I>palets</I> de dos entradas (2 vías)
+              h5.p-3.pb-0.mb-0 <I>Palets</I> de dos entradas (2 vías)
               p.p-3.pb-0.mb-3 Solo se puede manipular por dos lados con carretilla.
       .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
@@ -183,7 +183,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/tema_2/img_14.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
-              h5.p-3.pb-0.mb-0 <I>palets</I> de cuatro entradas (4 vías)
+              h5.p-3.pb-0.mb-0 <I>Palets</I> de cuatro entradas (4 vías)
               p.p-3.pb-0.mb-3 Permite el acceso desde cualquier lado, más versátil.
       .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
@@ -191,7 +191,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/tema_2/img_15.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
-              h5.p-3.pb-0.mb-0 <I>palets</I> reversible (de doble cara)
+              h5.p-3.pb-0.mb-0 <I>Palets</I> reversible (de doble cara)
               p.p-3.pb-0.mb-3 Tienen tablas tanto en la parte superior como inferior, soportando más peso.
       .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
@@ -199,7 +199,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/tema_2/img_16.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
-              h5.p-3.pb-0.mb-0 <I>palets</I> cerrado (bloque)
+              h5.p-3.pb-0.mb-0 <I>Palets</I> cerrado (bloque)
               p.p-3.pb-0.mb-3 Diseño más robusto, con bloques de soporte en las esquinas.
 
     

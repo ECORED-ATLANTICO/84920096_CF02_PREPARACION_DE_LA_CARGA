@@ -264,7 +264,7 @@
             tr
               td(rowspan="4") Internacionales
               td.text-start OMI (Organización Marítima Internacional) - Código CTU
-              td.text-start Establecer directrices para el correcto estibado y trincaje de carga en contenedores y unidades de transporte.tr
+              td.text-start Establecer directrices para el correcto estibado y trincaje de carga en contenedores y unidades de transporte.
             tr
               td.text-start Normas ISO <br>ISO 1496 <br>ISO 17712 <br>ISO 3874
               td.text-start Especificaciones técnicas para contenedores de carga. <br>Requisitos para sellos de seguridad en contenedores. <br>Estándares para manipulación de contenedores.
@@ -291,7 +291,7 @@
             tr
               td(rowspan="3") Colombianas
               td.text-start Normas Icontec <br>NTC 5205 <br>NTC 1695
-              td.text-start Requisitos para flejes metálicos en carga. <br>Estándares para embalajes de madera
+              td.text-start Requisitos para flejes metálicos en carga. <br>Estándares para embalajes de madera.
             tr
               td.text-start Superintendencia de Puertos y Transporte
               td.text-start Realiza operativos de control para verificar el correcto aseguramiento de carga. <br>Aplica sanciones por incumplimiento.

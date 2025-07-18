@@ -182,7 +182,7 @@
               td.text-start.fw-bold Convenio Internacional CSC (1972)
               td.text-start 
                 p.mb-0 Regula la seguridad estructural y la inspección periódica de contenedores.
-                p.mb-0 Exige la placa CSC Plate como certificación de cumplimiento
+                p.mb-0 Exige la placa CSC Plate como certificación de cumplimiento.
             tr
               td.text-start.fw-bold IMO (Organización Marítima Internacional)
               td.text-start 

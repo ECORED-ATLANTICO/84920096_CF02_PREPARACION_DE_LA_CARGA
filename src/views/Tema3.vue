@@ -104,7 +104,7 @@
                 figure
                   img(src="@/assets/curso/temas/tema_2/img_17_1.png", class="img-fluid", style="transform: translateY(-10px); width: 70% !important; max-width: 1500% !important; height: 70% !important; max-height: 1500% !important; display: flex;")    
               .col-12.col-lg-7.mb-0
-                p.mb-0 determina sus propiedades físicas, nivel de protección, durabilidad, impacto ambiental y costo logístico. Elegir el material adecuado depende del tipo de producto, su peso, condiciones de transporte y destino final. Entre los materiales más comunes se encuentran:
+                p.mb-0 Los embalajes se pueden clasificar según el material con el que están fabricados, ya que este determina sus propiedades físicas, nivel de protección, durabilidad, impacto ambiental y costo logístico. Elegir el material adecuado depende del tipo de producto, su peso, condiciones de transporte y destino final. Entre los materiales más comunes se encuentran:
      
 
       .row.d-flex.align-items-stretch.justify-content-center.mb-3
@@ -136,7 +136,7 @@
           h5 Figura 1.
           |    Factores clave para selección del tipo de embalaje
         figure
-          img(src='@/assets/curso/temas/tema_3/img_16.svg', alt="Factores clave Características del producto Proceso de producción y envasado Manipulación en transporte y almacenaje Impacto medioambiental"  class="img-fluid")
+          img(src='@/assets/curso/temas/tema_3/img_16.svg', alt=" En la figura se presentan los factores clave para la selección del tipo de embalaje. Factores clave Características del producto Proceso de producción y envasado Manipulación en transporte y almacenaje Impacto medioambiental"  class="img-fluid")
           figcaption <b>Fuente.</b> SENA, 2025
     
     .bg_img_10.mb-3
