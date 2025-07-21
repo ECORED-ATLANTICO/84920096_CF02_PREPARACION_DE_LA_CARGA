@@ -20,7 +20,7 @@ export default {
       tema: 'Alistamiento de la carga.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Validar el conocimiento adquirido sobre el aseguramiento y embalaje de la carga.',
+        '<b> Objetivo:</b> validar el conocimiento adquirido sobre el aseguramiento y embalaje de la carga.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
