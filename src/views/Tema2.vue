@@ -34,40 +34,40 @@
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-3.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Portabilidad
                   p.mb-0 Conseguir que los artículos sean fáciles de transportar es el objetivo principal.
         .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-3.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_2/img_4.png", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_2/img_4.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Fuerza
                   p.mb-0 Los <I>palets</I> son más fuertes que otras opciones de envío como cajas o envoltorios de plástico.
         .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-3.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_2/img_5.png", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_2/img_5.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Peso y tamaño
                   p.mb-0 En la actualidad los <I>palets</I> son más ligeros y resistentes, y la fabricación de nuevas paletas que se acoplan reducen el espacio de almacenamiento.
         .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-3.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_2/img_6.png", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_2/img_6.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Reciclaje
                   p.mb-0 La mayoría de los <I>palets</I> son reutilizables, y pueden ser enviados entre fabricante y distribuidor muchas veces antes de repararse.
 
@@ -91,7 +91,7 @@
       SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 Paleta de Madera
+            h5 Paleta de madera
             p Son las más comunes en la logística, conocidas por su resistencia y precio accesible. Son ideales para cargas pesadas, aunque su vida útil depende de condiciones ambientales.
             h5 Ventajas:
             ul(style="list-style-type: disc; padding-left: 20px")  
@@ -108,7 +108,7 @@
               img(src='@/assets/curso/temas/tema_2/img_8.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 Paleta de Plástico
+            h5 Paleta de plástico
             p Fabricadas en polietileno o polipropileno, estas paletas son resistentes a la humedad, higiénicas y de larga duración. Suelen usarse en industrias con altos estándares sanitarios.
             h5 Ventajas:
             ul(style="list-style-type: disc; padding-left: 20px")
@@ -124,7 +124,7 @@
               img(src='@/assets/curso/temas/tema_2/img_9.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 Paleta de Metal (acero o aluminio)
+            h5 Paleta de metal (acero o aluminio)
             p Diseñadas para entornos industriales exigentes, las paletas metálicas ofrecen gran durabilidad y resistencia a impactos. Son adecuadas para ambientes de alta temperatura o cargas constantes.
             h5 Ventajas:
             ul(style="list-style-type: disc; padding-left: 20px")
@@ -141,7 +141,7 @@
               img(src='@/assets/curso/temas/tema_2/img_10.png', class="img-fluid")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 Paleta de Cartón o Corcho
+            h5 Paleta de cartón o corcho
             p Son livianas, desechables y reciclables. Se utilizan principalmente en exportaciones o envíos donde no se espera la devolución de embalaje.
             h5 Ventajas:
             ul(style="list-style-type: disc; padding-left: 20px")
@@ -175,7 +175,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/tema_2/img_13.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
-              h5.p-3.pb-0.mb-0 <I>Palets</I> de dos entradas (2 vías)
+              h5.p-3.pb-0.mb-0 <I>Palet</I> de dos entradas (2 vías)
               p.p-3.pb-0.mb-3 Solo se puede manipular por dos lados con carretilla.
       .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
@@ -183,7 +183,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/tema_2/img_14.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
-              h5.p-3.pb-0.mb-0 <I>Palets</I> de cuatro entradas (4 vías)
+              h5.p-3.pb-0.mb-0 <I>Palet</I> de cuatro entradas (4 vías)
               p.p-3.pb-0.mb-3 Permite el acceso desde cualquier lado, más versátil.
       .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
@@ -191,7 +191,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/tema_2/img_15.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
-              h5.p-3.pb-0.mb-0 <I>Palets</I> reversible (de doble cara)
+              h5.p-3.pb-0.mb-0 <I>Palet</I> reversible (de doble cara)
               p.p-3.pb-0.mb-3 Tienen tablas tanto en la parte superior como inferior, soportando más peso.
       .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
         .w-100.d-flex.flex-column.h-100
@@ -199,7 +199,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/tema_2/img_16.png", class="img-fluid w-100 h-100")
             .flex-grow-1.d-flex.flex-column
-              h5.p-3.pb-0.mb-0 <I>Palets</I> cerrado (bloque)
+              h5.p-3.pb-0.mb-0 <I>Palet</I> cerrado (bloque)
               p.p-3.pb-0.mb-3 Diseño más robusto, con bloques de soporte en las esquinas.
 
     
@@ -302,7 +302,7 @@
 
       p.mb-3 Las paletas son fundamentales en la cadena logística, y su correcto uso garantiza eficiencia, seguridad y protección de la carga. A continuación, se detallan los métodos clave:
       
-      .row.justify-content-center.align-items-center.mb-3
+      .row.justify-content-center.align-items-start.mb-3
         .col-12.col-lg-8.order-2.order-lg-1.mb-3
           AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Carga")

@@ -107,7 +107,7 @@
                 p.mb-0 Los embalajes se pueden clasificar según el material con el que están fabricados, ya que este determina sus propiedades físicas, nivel de protección, durabilidad, impacto ambiental y costo logístico. Elegir el material adecuado depende del tipo de producto, su peso, condiciones de transporte y destino final. Entre los materiales más comunes se encuentran:
      
 
-      .row.justify-content-center.align-items-center.mb-3
+      .row.justify-content-center.align-items-start.mb-3
         .col-12.col-lg-8.order-2.order-lg-1.mb-3
           AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Cartón corrugado")
@@ -160,50 +160,50 @@
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-4.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_3/img_18.svg", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_3/img_18.svg", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Resistencia  mecánica
                   p.mb-0 Un embalaje debe soportar fuerzas externas durante el transporte y almacenamiento.
         .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-4.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_3/img_19.svg", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_3/img_19.svg", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Protección ambiental
                   p.mb-0 El embalaje debe aislar el producto de factores externos que puedan degradarlo.
         .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-4.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_3/img_20.svg", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_3/img_20.svg", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Eficiencia en espacio
                   p.mb-0 Optimizar dimensiones y diseño para reducir costos logísticos.
         .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-4.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_3/img_21.svg", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_3/img_21.svg", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Sostenibilidad
                   p.mb-0 Reducir el impacto ambiental sin comprometer la protección.
         .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-2.mb-lg-0.mb-3
+                .col-4.col-lg-3.mb-lg-0.mb-3
                   figure
-                    img(src="@/assets/curso/temas/tema_3/img_22.svg", class="img-fluid")
-                .col-12.col-lg-10
+                    img(src="@/assets/curso/temas/tema_3/img_22.svg", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
+                .col-12.col-lg-9
                   h6 Información clara y trazabilidad
                   p.mb-0 Facilitar la identificación y rastreo en la cadena de suministro.    
       .row.justify-content-center.align-items-center.mb-3
@@ -211,7 +211,7 @@
           .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-3
             .row.justify-content-center.align-items-center.mb-0
               .col-4.col-lg-1.mb-2.mb-lg-0
-                img(src="@/assets/curso/temas/tema_3/img_23.png", class="img-fluid")
+                img(src="@/assets/curso/temas/tema_3/img_23.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
               .col-12.col-lg-10
                 p.mb-0 Es un embalaje óptimo el que equilibra resistencia, perforación funcional y sostenibilidad para servir las particularidades del producto a embalar y la reglamentación del ramo en específico. Invertir en un diseño bien planificado reduce pérdidas por daños y mejora la eficiencia logística.
 
@@ -223,7 +223,7 @@
     
       p.mb-5(data-aos="fade-right") Los métodos de uso de embalaje en logística se seleccionan según el tipo de producto, volumen de producción y requisitos de la cadena de suministro.
     
-      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+      .row.d-flex.align-items-start.justify-content-center.mb-3
         .col-9.col-lg-4.d-flex.mb-3(data-aos="flip-left")
           figure.w-100.h-100.d-flex.flex-column
             img(src='@/assets/curso/temas/tema_3/img_24.png', class="img-fluid w-100 h-100")
@@ -232,7 +232,7 @@
             div(titulo="Embalaje manual")
               p.ps-5.mb-0 Proceso realizado por operarios que embalan productos de forma directa. Se caracteriza por su flexibilidad para adaptarse a formas irregulares, la posibilidad de personalización según requerimientos específicos y la precisión en el manejo de artículos frágiles o delicados.
             div(titulo="Embalaje automático")
-              p.ps-5.mb-0 Proceso mecanizado mediante robots o sistemas automáticos que realizan el empaquetado a alta velocidad. Ofrece alta velocidad de operación, consistencia en los resultados y precisión robótica en el manejo exacto de productos, siendo ideal para grandes volúmenes.
+              p.ps-5.mb-0 Proceso mecanizado mediante <i>robots</i> o sistemas automáticos que realizan el empaquetado a alta velocidad. Ofrece alta velocidad de operación, consistencia en los resultados y precisión robótica en el manejo exacto de productos, siendo ideal para grandes volúmenes.
             div(titulo="Embalaje retornable")
               p.ps-5.mb-0 Sistema de empaque reutilizable, donde los contenedores vuelven al origen para ser usados nuevamente. Se destaca por su durabilidad gracias a materiales resistentes, su capacidad de reutilización en múltiples ciclos logísticos y su enfoque en la sostenibilidad, al reducir residuos y costos operativos.
             div(titulo="Embalaje consumible")
@@ -292,23 +292,23 @@
         TabsA.mb-5.tarjeta-tabs-a.color-adicional-4
           .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Unitización")
             .row.justify-content-center.align-items-center.mb-0
-              .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
+              .col-12.col-sm-12.col-md-8.col-lg-8.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                 p.mb-0 Agrupación de múltiples cajas o productos en una sola unidad manejable.
-              .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
+              .col-8.col-sm-8.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_30.png', class="img-fluid")(data-aos="fade-up")
           .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Contención con cantoneras")
             .row.justify-content-center.align-items-center.mb-0
-              .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
+              .col-12.col-sm-12.col-md-8.col-lg-8.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                 p.mb-0 Refuerzos en esquinas o bordes para evitar daños por impactos laterales.
-              .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
+              .col-8.col-sm-8.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_31.png', class="img-fluid")(data-aos="fade-up")
           .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Anclaje en contenedores")
             .row.justify-content-center.align-items-center.mb-0
-              .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
+              .col-12.col-sm-12.col-md-8.col-lg-8.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                 p.mb-0 Técnicas para inmovilizar cargas dentro de contenedores o camiones y evitar desplazamientos.
-              .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
+              .col-8.col-sm-8.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_32.png', class="img-fluid")(data-aos="fade-up")
       .col-12.col-lg-10.mb-3

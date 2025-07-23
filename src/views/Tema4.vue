@@ -10,10 +10,10 @@
     .bg_img_12.mb-3
       .tarjeta.color-primario-10.rounded-0.p-0.mb-5
         .row.justify-content-center.align-items-center.mb-0
-          .col-12.col-lg-5.mb-lg-0.mb-3.p-0
-            figure.p-0
-              img(src="@/assets/curso/temas/tema_4/img_1.png", class="img-fluid").p-0
-          .col-12.col-lg-7.p-3
+          .col-12.col-lg-5.mb-lg-0.mb-0
+            figure
+              img(src="@/assets/curso/temas/tema_4/img_1.png", class="img-fluid")
+          .col-12.col-lg-7.p-4
             p.mb-0 Corresponden a elementos portátiles y con gran resistencia que protegen a la mercancía que se aloja en su interior de posibles golpes y permiten la ubicación y el apilado de mercancía, construyendo una unidad de carga, que posibilita una posterior manipulación y almacenaje, la que se puede realizar de manera manual o a través de aparatos de manutención
 
       separador
@@ -42,6 +42,57 @@
       .mb-3
 
       p.mb-3 Los contenedores se clasifican según su estructura y el tipo de carga que pueden trasladar. Elegir el contenedor adecuado no solo preserva la calidad de los productos durante el transporte, sino que también maximiza el uso del espacio, disminuye costos y asegura el cumplimiento de regulaciones internacionales.
+
+    .tarjeta.tarjeta--fondo__slider.p-4.mb-5
+      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-6.order-2.order-lg-1.mb-0
+            p.mb-0 El aseguramiento de la carga es un proceso técnico que integra métodos y procedimientos específicos orientados a fijar, estabilizar y proteger la mercancía durante las fases de transporte, almacenamiento y manipulación. 
+            p.mb-0 Su propósito principal es garantizar que los productos lleguen a su destino final en condiciones óptimas, evitando daños, pérdidas o incidentes ocasionados por factores como movimientos bruscos, vibraciones, impactos o condiciones climáticas adversas.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_1/img_2.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-6.order-2.order-lg-1.mb-0
+            p.mb-0 Se requiere el uso adecuado de materiales y sistemas de sujeción (como amarres, cinchas, esquineros, entre otros), así como una correcta distribución del peso dentro del vehículo o contenedor, de modo que se preserve su estabilidad y se minimicen los riesgos operativos.
+            p.mb-0 Esta práctica no solo contribuye a la eficiencia de la logística, sino que también permite el cumplimiento de normativas nacionales e internacionales de seguridad en el transporte de carga.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_1/img_3.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-6.order-2.order-lg-1.mb-0
+            h5 <I>Dry van</I> (Estándar)
+            p.mb-0 Es el contenedor más utilizado en el transporte internacional. Diseñado para carga general que no requiere control de temperatura.
+            p.mb-0 Usos comunes: ideal para transportar ropa, maquinaria, muebles, productos empacados, entre otros.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_3.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-6.order-2.order-lg-1.mb-0
+            h5 <I>Reefer</I> (Refrigerado)
+            p.mb-0 Contenedor con sistema de refrigeración incorporado para mantener temperaturas controladas durante el transporte.
+            p.mb-0 Usos comunes: perfecto para alimentos congelados, productos frescos, farmacéuticos o perecederos.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_4.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-6.order-2.order-lg-1.mb-0
+            h5 <I>Open top</I>
+            p.mb-0 No posee techo rígido. Tiene una lona superior desmontable, lo que permite el ingreso de carga por la parte superior.
+            p.mb-0 Usos comunes: adecuado para maquinaria pesada, materiales de gran altura o formas irregulares.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_5.png', class="img-fluid")
+        .row.justify-content-center.align-items-center
+          .col-12.col-lg-6.order-2.order-lg-1.mb-0
+            h5 <I>Flat rack</I>
+            p.mb-0 Contenedor sin paredes laterales ni techo, diseñado para cargas anchas, altas o pesadas. Algunos modelos tienen extremos abatibles o removibles.
+            p.mb-0 Usos comunes: transporta maquinaria industrial, vehículos grandes o cargas sobredimensionadas.
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema_4/img_6.png', class="img-fluid")
+       
+        
 
     .tarjeta.tarjeta--fondo__slider.p-4.mb-5
       SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
@@ -116,8 +167,8 @@
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/temas/tema_4/img_10.png', class="img-fluid")
         .col-12.col-lg-8.mb-0
-          .custom-slider.p-5.p-sm-3
-            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-5.pb-0.rounded-3
+          .custom-slider.p-3.p-sm-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-3.pb-0.rounded-3
               .tarjeta.color-sistema-h-3
                 .tarjeta--5
                 .tarjeta--slider__title.mb-3.text-center.fw-bold Resistencia 
@@ -230,23 +281,23 @@
         TabsA.mb-5.tarjeta-tabs-a.color-adicional-4
           .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Transporte de mercancías")
             .row.justify-content-center.align-items-center.mb-0
-              .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+              .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 p.mb-0 Facilitan el movimiento seguro de bienes entre diferentes modos de transporte (marítimo, terrestre y ferroviario) sin necesidad de reembalaje.
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+              .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_4/img_19.svg', class="img-fluid")(data-aos="fade-up")
           .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Almacenamiento temporal")
             .row.justify-content-center.align-items-center.mb-0
-              .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+              .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                 p.mb-0 Se pueden utilizar como almacenes móviles para guardar mercancías en espera de ser transportadas. 
-              .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+              .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_4/img_20.svg', class="img-fluid")(data-aos="fade-up")
           .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Solución de transporte flexible")
             .row.justify-content-center.align-items-center.mb-0
-              .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
+              .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-7.col-xxl-7.mb-4.mb-xl-0
                 p.mb-0 Permiten el transporte de una amplia variedad de productos, desde mercancías paletizadas hasta maquinaria pesada, pasando por productos perecederos. 
-              .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
+              .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
                 figure
                   img(src='@/assets/curso/temas/tema_4/img_21.svg', class="img-fluid")(data-aos="fade-up")
 </template>

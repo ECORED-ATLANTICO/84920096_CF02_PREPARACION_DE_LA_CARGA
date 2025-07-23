@@ -148,7 +148,7 @@
               ul.mb-0.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
-                  | &nbsp;&nbsp;Trincar con cinchas / cadenas en ángulos adecuados (idealmente 45 °a 60 °). 
+                  | &nbsp;&nbsp;Trincar con cinchas / cadenas en ángulos adecuados (idealmente 45 ° a 60 °). 
                 .border-bottom.mb-1
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
