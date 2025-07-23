@@ -302,7 +302,7 @@
 
       p.mb-3 Las paletas son fundamentales en la cadena logística, y su correcto uso garantiza eficiencia, seguridad y protección de la carga. A continuación, se detallan los métodos clave:
       
-      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+      .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-8.order-2.order-lg-1.mb-3
           AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Carga")
@@ -315,9 +315,9 @@
               p.ps-5.mb-0 Se apilan en estanterías metálicas o directamente en suelo, respetando límites de altura y peso para prevenir colapsos. Se usan bases para evitar humedad.
             div(titulo="Descarga")
               p.ps-5.mb-0 Al llegar a destino, se retira la mercancía del <I>palet</I> con cuidado, utilizando maquinaria o manualmente, y se almacena o reutiliza el <I>palet</I> según su condición.
-        .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-3(data-aos="flip-left")
-          figure.w-100.h-100.d-flex.flex-column
-            img(src='@/assets/curso/temas/tema_2/img_27.png', class="img-fluid w-100 h-100")
+        .col-9.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
+          figure
+            img(src='@/assets/curso/temas/tema_2/img_27.png', class="img-fluid")
     
 
 </template>

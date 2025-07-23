@@ -107,7 +107,7 @@
                 p.mb-0 Los embalajes se pueden clasificar según el material con el que están fabricados, ya que este determina sus propiedades físicas, nivel de protección, durabilidad, impacto ambiental y costo logístico. Elegir el material adecuado depende del tipo de producto, su peso, condiciones de transporte y destino final. Entre los materiales más comunes se encuentran:
      
 
-      .row.d-flex.align-items-stretch.justify-content-center.mb-3
+      .row.justify-content-center.align-items-center.mb-3
         .col-12.col-lg-8.order-2.order-lg-1.mb-3
           AcordionA(tipo="b"  clase-tarjeta="tarjeta tarjeta--color-primario-5")
             div(titulo="Cartón corrugado")
@@ -118,9 +118,9 @@
               p.ps-5.mb-0 Los embalajes plásticos se destacan por ser ligeros, impermeables y resistentes a impactos. Su uso es común en sectores como el alimentario, farmacéutico e industrial, ya que ofrecen buena protección frente a factores ambientales. Al reducir el peso del empaque, también contribuyen a disminuir los costos logísticos.
             div(titulo="Metal")
               p.ps-5.mb-0 El metal es utilizado en embalajes cuando se requiere máxima durabilidad, hermeticidad y seguridad, como en el caso de productos químicos, materiales peligrosos o maquinaria de alto valor. Aunque su costo es elevado, su resistencia a condiciones extremas y reutilización lo hacen ideal para industrias pesadas y exportaciones críticas.
-        .col-9.col-lg-4.d-flex.order-1.order-lg-2.mb-3(data-aos="flip-left")
-          figure.w-100.h-100.d-flex.flex-column
-            img(src='@/assets/curso/temas/tema_3/img_14.png', class="img-fluid w-100 h-100")
+        .col-9.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
+          figure
+            img(src='@/assets/curso/temas/tema_3/img_14.png', class="img-fluid")
     
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-10.mb-3

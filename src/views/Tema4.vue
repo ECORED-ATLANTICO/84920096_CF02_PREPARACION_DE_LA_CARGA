@@ -110,12 +110,12 @@
     
     p.mb-3 Las características de los contenedores responden a las exigencias de un mercado globalizado, donde factores como la resistencia estructural, la estanqueidad, la modularidad y la adaptabilidad son determinantes para optimizar costos y reducir riesgos operativos. Se destacan:
 
-    .bg_img_13.mb-3
+    .bg_img_13.mb-0
       .row.justify-content-center.align-items-center.mb-0
         .col-10.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/temas/tema_4/img_10.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.mb-0
           .custom-slider.p-5.p-sm-3
             SlyderF(columnas="col-12 col-sm-12 col-md-6 col-lg-4").p-5.rounded-3
               .tarjeta.color-sistema-h-3
