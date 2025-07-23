@@ -26,14 +26,14 @@
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
               p.mb-0 El aseguramiento de la carga es un proceso técnico que integra métodos y procedimientos específicos orientados a fijar, estabilizar y proteger la mercancía durante las fases de transporte, almacenamiento y manipulación. 
               p.mb-0 Su propósito principal es garantizar que los productos lleguen a su destino final en condiciones óptimas, evitando daños, pérdidas o incidentes ocasionados por factores como movimientos bruscos, vibraciones, impactos o condiciones climáticas adversas.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_1/img_2.png', class="img-fluid")
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
               p.mb-0 Se requiere el uso adecuado de materiales y sistemas de sujeción (como amarres, cinchas, esquineros, entre otros), así como una correcta distribución del peso dentro del vehículo o contenedor, de modo que se preserve su estabilidad y se minimicen los riesgos operativos.
               p.mb-0 Esta práctica no solo contribuye a la eficiencia de la logística, sino que también permite el cumplimiento de normativas nacionales e internacionales de seguridad en el transporte de carga.
-            .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+            .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_1/img_3.png', class="img-fluid")
     .row.d-flex.align-items-stretch.justify-content-center.mb-5
@@ -48,32 +48,32 @@
 
     .bg_img_2.mb-3
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
-          .crd_hover_txt(data-aos="flip-left")
+        .col-12.col-md-6.col-xl-3.mb-4
+          .crd_hover_txt.rounded-3(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid")
             .crd_hover_txt--body.color-primario
               h5.mb-4.text-center Daños en la mercancía
               p.mb-0.text-small Cuando los materiales se mueven de forma insegura, el impacto o la vibración durante el transporte pueden causar roturas, deformaciones o pérdida de valor en los productos.
-        .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
-          .crd_hover_txt(data-aos="flip-left")
+        .col-12.col-md-6.col-xl-3.mb-4
+          .crd_hover_txt.rounded-3(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_1/img_7.png", class="img-fluid")
             .crd_hover_txt--body.color-acento-contenido
               h5.mb-4.text-center Accidentes laborales
               p.mb-0.text-small Cargas inestables o mal sujetas pueden caer, provocando lesiones graves a los operadores de montacargas o al personal cercano.
-        .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
-          .crd_hover_txt(data-aos="flip-left")
+        .col-12.col-md-6.col-xl-3.mb-4
+          .crd_hover_txt.rounded-3(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_1/img_8.png", class="img-fluid")
             .crd_hover_txt--body.color-primario
               h5.mb-4.text-center Retrasos en la cadena de suministro
               p.mb-0.text-small Una carga mal asegurada puede provocar caídas o daños durante el transporte, lo que inevitablemente causa retrasos. Cuando un producto no llega a tiempo, toda la operación se ve afectada.
-        .col-12.col-md-6.col-xl-3.mb-4.mb-lg-0
-          .crd_hover_txt(data-aos="flip-left")
+        .col-12.col-md-6.col-xl-3.mb-4
+          .crd_hover_txt.rounded-3(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_1/img_9.png", class="img-fluid")
@@ -93,7 +93,7 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Evaluación de la carga")
             .col-md-12.mb-4.mb-md-0
-              ul.text-small.mb-0.p-0
+              ul.mb-0.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
                   | &nbsp;&nbsp;Identificar el tipo de mercancía. 
@@ -107,7 +107,7 @@
                   | &nbsp;&nbsp;Determinar el medio de transporte.
           .row(numero="2" titulo="Selección del método de aseguramiento")
             .col-md-12.mb-4.mb-md-0
-              ul.text-small.mb-0.p-0
+              ul.mb-0.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
                   | &nbsp;&nbsp;Elegir entre trincaje, bloqueo, fijado, entibado o amortiguación, según las características de la carga. 
@@ -117,7 +117,7 @@
                   | &nbsp;&nbsp;Usar materiales certificados.
           .row(numero="3" titulo="Preparación del soporte de carga")
             .col-md-12.mb-4.mb-md-0
-              ul.text-small.mb-0.p-0
+              ul.mb-0.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
                   | &nbsp;&nbsp;Limpiar y acondicionar el área. 
@@ -131,7 +131,7 @@
                   | &nbsp;&nbsp;Asegurar estructuras de anclaje.
           .row(numero="4" titulo="Distribución y estiba")
             .col-md-12.mb-4.mb-md-0
-              ul.text-small.mb-0.p-0
+              ul.mb-0.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
                   | &nbsp;&nbsp;Colocar la carga de manera uniforme, evitando desbalances. 
@@ -145,7 +145,7 @@
                   | &nbsp;&nbsp;Utilizar paletas o separadores.
           .row(numero="5" titulo="Aplicación de técnicas de fijación")
             .col-md-12.mb-4.mb-md-0
-              ul.text-small.mb-0.p-0
+              ul.mb-0.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
                   | &nbsp;&nbsp;Trincar con cinchas / cadenas en ángulos adecuados (idealmente 45 °a 60 °). 
@@ -159,7 +159,7 @@
                   | &nbsp;&nbsp;Aplicar flejes o <I>films</I>.
           .row(numero="6" titulo="Verificación final")
             .col-md-12.mb-4.mb-md-0
-              ul.text-small.mb-0.p-0
+              ul.mb-0.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
                   | &nbsp;&nbsp;Comprobar que no haya desplazamientos al aplicar movimientos manuales. 
@@ -173,7 +173,7 @@
                   | &nbsp;&nbsp;Confirmar cumplimiento normativo.
           .row(numero="7" titulo="Documentación y cumplimiento")
             .col-md-12.mb-4.mb-md-0
-              ul.text-small.mb-0.p-0
+              ul.mb-0.p-0
                 li
                   i.fa-solid.fa-circle-check(style="color: #4ADBD1; font-size: 15px").mb-1
                   | &nbsp;&nbsp;Registrar el método de aseguramiento en la documentación de transporte. 

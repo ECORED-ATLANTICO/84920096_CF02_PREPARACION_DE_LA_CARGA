@@ -30,7 +30,7 @@
           p.mb-0 La principal función de las paletas es agrupar productos en una sola unidad, lo que facilita su manejo, transporte y almacenamiento.
       
       .row.d-flex.align-items-stretch.justify-content-center.mb-0
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -40,7 +40,7 @@
                 .col-12.col-lg-10
                   h6 Portabilidad
                   p.mb-0 Conseguir que los artículos sean fáciles de transportar es el objetivo principal.
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -50,7 +50,7 @@
                 .col-12.col-lg-10
                   h6 Fuerza
                   p.mb-0 Los <I>palets</I> son más fuertes que otras opciones de envío como cajas o envoltorios de plástico.
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -60,7 +60,7 @@
                 .col-12.col-lg-10
                   h6 Peso y tamaño
                   p.mb-0 En la actualidad los <I>palets</I> son más ligeros y resistentes, y la fabricación de nuevas paletas que se acoplan reducen el espacio de almacenamiento.
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -103,7 +103,7 @@
               li  Se deterioran con golpes o humedad.
               li  Difíciles de limpiar y desinfectar.
               li  Pueden ser afectadas por plagas si no se tratan adecuadamente.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_2/img_8.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -119,7 +119,7 @@
             ul(style="list-style-type: disc; padding-left: 20px")
               li  Mayor costo inicial frente a las de madera.
               li  Pueden deformarse bajo cargas muy pesadas o altas temperaturas.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_2/img_9.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -136,7 +136,7 @@
               li  Peso elevado, lo que dificulta su manipulación manual.
               li  Costo más alto en comparación con otros materiales.
               li  Puede generar ruido o rayar superficies si no se manejan adecuadamente.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_2/img_10.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -153,7 +153,7 @@
               li  Baja resistencia, solo aptas para cargas ligeras.
               li  Vida útil limitada, diseñadas para un solo uso.
               li  Vulnerables a la humedad y daños por presión.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid")
     
@@ -232,7 +232,7 @@
     p.mb-3 Las paletas se definen por un conjunto de atributos clave que determinan su uso, eficiencia y vida útil. Estas son las características principales:
     
     .row.d-flex.align-items-stretch.justify-content-center.mb-0 
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
+      .col-12.col-md-6.col-lg-3.col-xl-2.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
@@ -242,7 +242,7 @@
               .col-12.col-lg-12
                 h6.text-center Durabilidad 
                 p.text-center.mb-0 Se refiere a la vida útil del <I>palet</I> bajo condiciones normales de uso.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
+      .col-12.col-md-6.col-lg-3.col-xl-2.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
@@ -252,7 +252,7 @@
               .col-12.col-lg-12
                 h6.text-center Peso 
                 p.text-center.mb-0 Influye en la manejo y costos de transporte.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
+      .col-12.col-md-6.col-lg-3.col-xl-2.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
@@ -262,7 +262,7 @@
               .col-12.col-lg-12
                 h6.text-center Resistencia 
                 p.text-center.mb-0 Capacidad para soportar cargas sin deformarse.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
+      .col-12.col-md-6.col-lg-3.col-xl-2.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
@@ -272,7 +272,7 @@
               .col-12.col-lg-12
                 h6.text-center Higiene 
                 p.text-center.mb-0 Facilidad de limpieza y prevención de contaminación.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
+      .col-12.col-md-6.col-lg-3.col-xl-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0
@@ -282,7 +282,7 @@
               .col-12.col-lg-12
                 h6.text-center Sostenibilidad 
                 p.text-center.mb-0 Impacto ambiental y posibilidad de reciclaje.
-      .col-12.col-lg-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
+      .col-12.col-md-6.col-lg-3.col-xl-2.d-flex.mb-3.mb-lg-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
             .row.justify-content-center.align-items-center.mb-0.p-0

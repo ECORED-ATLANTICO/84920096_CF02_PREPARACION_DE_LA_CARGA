@@ -40,25 +40,19 @@
     transform: translateY(0px)
 
 .banner-principal .tarjeta
-  background-image: url('../assets/curso/portada/fondo-banner-contenido-mobile.png') !important
-@media (min-width: 426px)
-  .banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url('../assets/curso/portada/fondo-banner-contenido-mobile.png') !important
+  @media screen and (max-width: $bp-max-xs)
     background-image: url('../assets/curso/portada/fondo-banner-contenido-tablet.png') !important
-    padding-right: 130px
-@media (min-width: 769px)
-  .banner-principal .tarjeta
-    padding-right: 0
-    overflow: hidden
-
   .banner-principal__row 
   .banner-principal__img
     width: 400px
     padding-bottom: 0 !important
-    padding-top: 72px !important
+    padding-top: 28px !important
 
 @media (min-width: 1025px)
   .banner-principal__row .banner-principal__img
-    width: 570px
+    width: 580px
     padding-bottom: 0 !important
     padding-top: 0 !important
 

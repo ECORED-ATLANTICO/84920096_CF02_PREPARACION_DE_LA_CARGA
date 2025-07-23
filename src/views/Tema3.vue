@@ -61,11 +61,11 @@
       .mb-3
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
+        .col-12.col-lg-3.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/temas/tema_3/img_8.png', class="img-fluid")
-        .col-12.col-lg-8
-          p.mb-3 Los embalajes se clasifican de acuerdo con su función en la cadena de suministro. En la logística y preparación de la carga, los embalajes no solo cumplen una función física de resguardo, sino que forman parte estratégica de la cadena de suministro. 
+        .col-12.col-lg-9
+          p.mb-0 Los embalajes se clasifican de acuerdo con su función en la cadena de suministro. En la logística y preparación de la carga, los embalajes no solo cumplen una función física de resguardo, sino que forman parte estratégica de la cadena de suministro. 
           p.mb-3 Según el nivel de protección que ofrecen, los embalajes se clasifican en tres tipos:
           TabsA.mb-5.tarjeta-tabs-a.color-adicional-4
             .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Embalaje primario")
@@ -156,7 +156,7 @@
           .col-12.col-lg-7.p-3
             p.mb-0 Un embalaje de alta calidad necesita cumplir requerimientos técnicos, logísticos y regulativos necesarios para proteger el producto y asegurar la eficacia de la cadena de suministro. Varios aspectos importantes se describen a continuación:
       .row.d-flex.align-items-stretch.justify-content-center.mb-5
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -166,7 +166,7 @@
                 .col-12.col-lg-10
                   h6 Resistencia  mecánica
                   p.mb-0 Un embalaje debe soportar fuerzas externas durante el transporte y almacenamiento.
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -176,7 +176,7 @@
                 .col-12.col-lg-10
                   h6 Protección ambiental
                   p.mb-0 El embalaje debe aislar el producto de factores externos que puedan degradarlo.
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -186,7 +186,7 @@
                 .col-12.col-lg-10
                   h6 Eficiencia en espacio
                   p.mb-0 Optimizar dimensiones y diseño para reducir costos logísticos.
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
@@ -196,7 +196,7 @@
                 .col-12.col-lg-10
                   h6 Sostenibilidad
                   p.mb-0 Reducir el impacto ambiental sin comprometer la protección.
-        .col-12.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
+        .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0

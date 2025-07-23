@@ -50,7 +50,7 @@
             h5 <I>Dry van</I> (Estándar)
             p.mb-0 Es el contenedor más utilizado en el transporte internacional. Diseñado para carga general que no requiere control de temperatura.
             p.mb-0 Usos comunes: ideal para transportar ropa, maquinaria, muebles, productos empacados, entre otros.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_3.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -58,7 +58,7 @@
             h5 <I>Reefer</I> (Refrigerado)
             p.mb-0 Contenedor con sistema de refrigeración incorporado para mantener temperaturas controladas durante el transporte.
             p.mb-0 Usos comunes: perfecto para alimentos congelados, productos frescos, farmacéuticos o perecederos.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_4.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -66,7 +66,7 @@
             h5 <I>Open top</I>
             p.mb-0 No posee techo rígido. Tiene una lona superior desmontable, lo que permite el ingreso de carga por la parte superior.
             p.mb-0 Usos comunes: adecuado para maquinaria pesada, materiales de gran altura o formas irregulares.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_5.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -74,7 +74,7 @@
             h5 <I>Flat rack</I>
             p.mb-0 Contenedor sin paredes laterales ni techo, diseñado para cargas anchas, altas o pesadas. Algunos modelos tienen extremos abatibles o removibles.
             p.mb-0 Usos comunes: transporta maquinaria industrial, vehículos grandes o cargas sobredimensionadas.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_6.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -82,7 +82,7 @@
             h5 <I>Tank</I> (Cisterna)
             p.mb-0 Diseñado para transportar líquidos a granel, incluyendo sustancias químicas o peligrosas.
             p.mb-0 Usos comunes: aceites, resinas, látex, leche, cerveza, vino, agua mineral, químicos, combustibles, entre otros.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_7.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -90,7 +90,7 @@
             h5 <I>High cube</I>
             p.mb-0 Similar al <I>Dry Van</I>, pero con mayor altura interna. Permite aprovechar mejor el espacio vertical.
             p.mb-0 Usos comunes: óptimo para cargas voluminosas y livianas que requieren más capacidad cúbica.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_8.png', class="img-fluid")
         .row.justify-content-center.align-items-center
@@ -98,7 +98,7 @@
             h5 <I>Open side</I>
             p.mb-0 Contenedor con apertura lateral (en uno o ambos costados), ideal para cargas de difícil acceso desde el extremo.
             p.mb-0 Usos comunes: perfecto para objetos largos o grandes. Facilita la carga / descarga en estaciones de ferrocarril o zonas con espacio limitado.
-          .col-12.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
+          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_4/img_9.png', class="img-fluid")
 
@@ -117,29 +117,29 @@
             img(src='@/assets/curso/temas/tema_4/img_10.png', class="img-fluid")
         .col-12.col-lg-8.mb-0
           .custom-slider.p-5.p-sm-3
-            SlyderF(columnas="col-12 col-sm-12 col-md-6 col-lg-4").p-5.rounded-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-5.pb-0.rounded-3
               .tarjeta.color-sistema-h-3
-                .tarjeta--1
+                .tarjeta--5
                 .tarjeta--slider__title.mb-3.text-center.fw-bold Resistencia 
                 .tarjeta--slider__content.text-center Fabricados con materiales robustos como acero o aluminio, capaces de soportar las condiciones del transporte y proteger la carga.              
               .tarjeta.color-sistema-h-3
-                .tarjeta--2
+                .tarjeta--6
                 .tarjeta--slider__title.mb-3.text-center.fw-bold  Estanqueidad
                 .tarjeta--slider__content.text-center Protección contra agua, polvo y contaminación externa.              
               .tarjeta.color-sistema-h-3
-                .tarjeta--3
+                .tarjeta--7
                 .tarjeta--slider__title.mb-3.text-center.fw-bold Estandarización
                 .tarjeta--slider__content.text-center Los contenedores tienen dimensiones estándar (20, 40 pies, entre otros) para facilitar el manejo y la carga en diferentes medios de transporte.              
               .tarjeta.color-sistema-h-3
-                .tarjeta--4
+                .tarjeta--8
                 .tarjeta--slider__title.mb-3.text-center.fw-bold  Manipulación
                 .tarjeta--slider__content.text-center Diseñados para ser apilables y movidos fácilmente mediante grúas, carretillas elevadoras, entre otros.
               .tarjeta.color-sistema-h-3
-                .tarjeta--5
+                .tarjeta--9
                 .tarjeta--slider__title.mb-3.text-center.fw-bold  Seguridad
                 .tarjeta--slider__content.text-center Cerraduras y sistemas de seguridad que garantizan la protección de la carga durante el transporte.
               .tarjeta.color-sistema-h-3
-                .tarjeta--6
+                .tarjeta--10
                 .tarjeta--slider__title.mb-3.text-center.fw-bold  Uso multimodal
                 .tarjeta--slider__content.text-center Compatibles con barcos, camiones y trenes.
     
