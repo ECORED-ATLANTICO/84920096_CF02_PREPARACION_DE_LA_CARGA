@@ -41,58 +41,7 @@
         .h2(data-aos="fade-right") 4.2	Tipos
       .mb-3
 
-      p.mb-3 Los contenedores se clasifican según su estructura y el tipo de carga que pueden trasladar. Elegir el contenedor adecuado no solo preserva la calidad de los productos durante el transporte, sino que también maximiza el uso del espacio, disminuye costos y asegura el cumplimiento de regulaciones internacionales.
-
-    .tarjeta.tarjeta--fondo__slider.p-4.mb-5
-      SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            p.mb-0 El aseguramiento de la carga es un proceso técnico que integra métodos y procedimientos específicos orientados a fijar, estabilizar y proteger la mercancía durante las fases de transporte, almacenamiento y manipulación. 
-            p.mb-0 Su propósito principal es garantizar que los productos lleguen a su destino final en condiciones óptimas, evitando daños, pérdidas o incidentes ocasionados por factores como movimientos bruscos, vibraciones, impactos o condiciones climáticas adversas.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_1/img_2.png', class="img-fluid")
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            p.mb-0 Se requiere el uso adecuado de materiales y sistemas de sujeción (como amarres, cinchas, esquineros, entre otros), así como una correcta distribución del peso dentro del vehículo o contenedor, de modo que se preserve su estabilidad y se minimicen los riesgos operativos.
-            p.mb-0 Esta práctica no solo contribuye a la eficiencia de la logística, sino que también permite el cumplimiento de normativas nacionales e internacionales de seguridad en el transporte de carga.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_1/img_3.png', class="img-fluid")
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 <I>Dry van</I> (Estándar)
-            p.mb-0 Es el contenedor más utilizado en el transporte internacional. Diseñado para carga general que no requiere control de temperatura.
-            p.mb-0 Usos comunes: ideal para transportar ropa, maquinaria, muebles, productos empacados, entre otros.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_4/img_3.png', class="img-fluid")
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 <I>Reefer</I> (Refrigerado)
-            p.mb-0 Contenedor con sistema de refrigeración incorporado para mantener temperaturas controladas durante el transporte.
-            p.mb-0 Usos comunes: perfecto para alimentos congelados, productos frescos, farmacéuticos o perecederos.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_4/img_4.png', class="img-fluid")
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 <I>Open top</I>
-            p.mb-0 No posee techo rígido. Tiene una lona superior desmontable, lo que permite el ingreso de carga por la parte superior.
-            p.mb-0 Usos comunes: adecuado para maquinaria pesada, materiales de gran altura o formas irregulares.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_4/img_5.png', class="img-fluid")
-        .row.justify-content-center.align-items-center
-          .col-12.col-lg-6.order-2.order-lg-1.mb-0
-            h5 <I>Flat rack</I>
-            p.mb-0 Contenedor sin paredes laterales ni techo, diseñado para cargas anchas, altas o pesadas. Algunos modelos tienen extremos abatibles o removibles.
-            p.mb-0 Usos comunes: transporta maquinaria industrial, vehículos grandes o cargas sobredimensionadas.
-          .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema_4/img_6.png', class="img-fluid")
-       
-        
+      p.mb-3 Los contenedores se clasifican según su estructura y el tipo de carga que pueden trasladar. Elegir el contenedor adecuado no solo preserva la calidad de los productos durante el transporte, sino que también maximiza el uso del espacio, disminuye costos y asegura el cumplimiento de regulaciones internacionales.        
 
     .tarjeta.tarjeta--fondo__slider.p-4.mb-5
       SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
