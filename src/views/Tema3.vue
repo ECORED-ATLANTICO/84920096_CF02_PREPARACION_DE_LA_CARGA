@@ -34,7 +34,7 @@
             img(src='@/assets/curso/temas/tema_3/img_3.png', class="img-fluid")
         .col-12.col-lg-8
           .custom-slider.p-5.p-sm-3
-            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
+            SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p2
               .tarjeta.color-sistema-h-2
                 .tarjeta--1
                 .tarjeta--slider__title.mb-3.text-center.fw-bold Protección 
@@ -68,28 +68,28 @@
           p.mb-0 Los embalajes se clasifican de acuerdo con su función en la cadena de suministro. En la logística y preparación de la carga, los embalajes no solo cumplen una función física de resguardo, sino que forman parte estratégica de la cadena de suministro. 
           p.mb-3 Según el nivel de protección que ofrecen, los embalajes se clasifican en tres tipos:
           TabsA.mb-5.tarjeta-tabs-a.color-adicional-4
-            .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Embalaje primario")
+            .tarjeta.color-adicional-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Embalaje primario")
               .row.justify-content-center.align-items-center.mb-0
-                .col-8.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
+                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   p.mb-0 Es el embalaje que está en contacto directo con el producto, protegiéndolo y manteniéndolo en condiciones óptimas.
                   p.mb-0 Ejemplo: el <I>brick</I> de cartón que contiene la leche o el saco que envuelve el hormigón.
-                .col-2.col-sm-2.col-md-2.col-lg-2.col-xl-2.col-xxl-2.mb-4.mb-xl-0
+                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_3/img_9.svg', class="img-fluid")(data-aos="fade-up")
-            .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Embalaje secundario")
+            .tarjeta.color-adicional-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Embalaje secundario")
               .row.justify-content-center.align-items-center.mb-0
-                .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
+                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   p.mb-0 Agrupa varios embalajes primarios en una sola unidad de carga, facilitando su manipulación y almacenamiento.
                   p.mb-0 Ejemplo: una caja de cartón con 12 latas o el <I>film</I> plástico que agrupa botellas de agua.
-                .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
+                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_3/img_10.svg', class="img-fluid")(data-aos="fade-up")
-            .tarjeta.color-adicional-5.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Embalaje terciario")
+            .tarjeta.color-adicional-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Embalaje terciario")
               .row.justify-content-center.align-items-center.mb-0
-                .col-7.col-sm-7.col-md-7.col-lg-7.col-xl-7.col-xxl-7.mb-4.mb-xl-0
+                .col-12.col-sm-8.col-md-8.col-lg-8.col-xl-8.col-xxl-8.mb-4.mb-xl-0
                   p.mb-0 Es la capa externa que agrupa unidades secundarias para facilitar el transporte logístico a gran escala.
                   p.mb-0 Ejemplo: cajas grandes que contienen varios pedidos individuales para su distribución.
-                .col-3.col-sm-3.col-md-3.col-lg-3.col-xl-3.col-xxl-3.mb-4.mb-xl-0
+                .col-8.col-sm-2.col-md-3.col-lg-3.col-xl-2.col-xxl-2.mb-4.mb-xl-0
                   figure
                     img(src='@/assets/curso/temas/tema_3/img_11.svg', class="img-fluid")(data-aos="fade-up")
 

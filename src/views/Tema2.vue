@@ -34,7 +34,7 @@
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-3.mb-lg-0.mb-3
+                .col-6.col-lg-3.mb-lg-0.mb-3
                   figure
                     img(src="@/assets/curso/temas/tema_2/img_3.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
                 .col-12.col-lg-9
@@ -44,7 +44,7 @@
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-3.mb-lg-0.mb-3
+                .col-6.col-lg-3.mb-lg-0.mb-3
                   figure
                     img(src="@/assets/curso/temas/tema_2/img_4.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
                 .col-12.col-lg-9
@@ -54,7 +54,7 @@
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-3.mb-lg-0.mb-3
+                .col-6.col-lg-3.mb-lg-0.mb-3
                   figure
                     img(src="@/assets/curso/temas/tema_2/img_5.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
                 .col-12.col-lg-9
@@ -64,7 +64,7 @@
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
               .row.justify-content-center.align-items-center.mb-0.p-0
-                .col-3.col-lg-3.mb-lg-0.mb-3
+                .col-6.col-lg-3.mb-lg-0.mb-3
                   figure
                     img(src="@/assets/curso/temas/tema_2/img_6.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
                 .col-12.col-lg-9
