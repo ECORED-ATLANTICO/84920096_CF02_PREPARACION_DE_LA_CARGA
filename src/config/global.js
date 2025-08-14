@@ -304,13 +304,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Andes Montacargas. (2024). <i>Tipos de Contenedores: Guía Completa para su Negocio.</i>',
-      link: 'https://andesmontacargas.com/tipos-de-contenedores/',
+        'Andes Montacargas. (2025). <i>Asegurar la carga: Guía completa para garantizar seguridad y eficiencia.</i>',
+      link: 'https://andesmontacargas.com/asegurar-la-carga/',
     },
     {
       referencia:
-        'Andes Montacargas. (2025). <i>Asegurar la carga: Guía completa para garantizar seguridad y eficiencia.</i>',
-      link: 'https://andesmontacargas.com/asegurar-la-carga/',
+        'Andes Montacargas. (2024). <i>Tipos de Contenedores: Guía Completa para su Negocio.</i>',
+      link: 'https://andesmontacargas.com/tipos-de-contenedores/',
     },
     {
       referencia:
