@@ -11,8 +11,7 @@
         .bloque-texto-t__img.mb-0
           img(src='@/assets/curso/temas/tema_1/img_1.png')
         .bloque-texto-t__texto.color-adicional-gradient.col-10.mb-0
-          p.mb-0 Es fundamental asegurarse que la carga esté bien asegurada en cualquier proceso logístico; y más precisan cuando se trata de materiales con montacargas. 
-          p.mb-0 Si se lleva a cabo de forma adecuada, no solo protege los objetos que se traslada, sino que también se evitan accidentes, se conserva la integridad del equipo y se aumenta la eficiencia en bodegas, obras y centros de distribución. 
+          p.mb-0 Es fundamental asegurarse que la carga esté bien asegurada en cualquier proceso logístico; y más precisan cuando se trata de materiales con montacargas. Si se lleva a cabo de forma adecuada, no solo protege los objetos que se traslada, sino que también se evitan accidentes, se conserva la integridad del equipo y se aumenta la eficiencia en bodegas, obras y centros de distribución. 
 
       separador
 
@@ -24,15 +23,13 @@
         SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
-              p.mb-0 El aseguramiento de la carga es un proceso técnico que integra métodos y procedimientos específicos orientados a fijar, estabilizar y proteger la mercancía durante las fases de transporte, almacenamiento y manipulación. 
-              p.mb-0 Su propósito principal es garantizar que los productos lleguen a su destino final en condiciones óptimas, evitando daños, pérdidas o incidentes ocasionados por factores como movimientos bruscos, vibraciones, impactos o condiciones climáticas adversas.
+              p.mb-0 El aseguramiento de la carga es un proceso técnico que integra métodos y procedimientos específicos orientados a fijar, estabilizar y proteger la mercancía durante las fases de transporte, almacenamiento y manipulación. Su propósito principal es garantizar que los productos lleguen a su destino final en condiciones óptimas, evitando daños, pérdidas o incidentes ocasionados por factores como movimientos bruscos, vibraciones, impactos o condiciones climáticas adversas.
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_1/img_2.png', class="img-fluid")
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
-              p.mb-0 Se requiere el uso adecuado de materiales y sistemas de sujeción (como amarres, cinchas, esquineros, entre otros), así como una correcta distribución del peso dentro del vehículo o contenedor, de modo que se preserve su estabilidad y se minimicen los riesgos operativos.
-              p.mb-0 Esta práctica no solo contribuye a la eficiencia de la logística, sino que también permite el cumplimiento de normativas nacionales e internacionales de seguridad en el transporte de carga.
+              p.mb-0 Se requiere el uso adecuado de materiales y sistemas de sujeción (como amarres, cinchas, esquineros, entre otros), así como una correcta distribución del peso dentro del vehículo o contenedor, de modo que se preserve su estabilidad y se minimicen los riesgos operativos. Esta práctica no solo contribuye a la eficiencia de la logística, sino que también permite el cumplimiento de normativas nacionales e internacionales de seguridad en el transporte de carga.
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_1/img_3.png', class="img-fluid")
@@ -43,8 +40,7 @@
       .col-12.col-lg-8.d-flex(data-aos="zoom-in-right")
         .d-flex.flex-column.justify-content-center.align-items-center.w-100.h-100
           .tarjeta_img_1.w-100.h-100
-            p.mb-0 Cuando una carga no se asegura de forma adecuada, se generan riesgos que pueden comprometer tanto la integridad de la mercancía como la seguridad del personal y la eficiencia operativa. 
-            p.mb-0 Estas consecuencias afectan directamente la rentabilidad, la logística y la reputación de las empresas involucradas en la cadena de suministro.
+            p.mb-0 Cuando una carga no se asegura de forma adecuada, se generan riesgos que pueden comprometer tanto la integridad de la mercancía como la seguridad del personal y la eficiencia operativa. Estas consecuencias afectan directamente la rentabilidad, la logística y la reputación de las empresas involucradas en la cadena de suministro.
 
     .bg_img_2.mb-3
       .row.justify-content-center.align-items-center.mb-5

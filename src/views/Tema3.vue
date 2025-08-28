@@ -42,7 +42,7 @@
               .tarjeta.color-sistema-h-2
                 .tarjeta--2
                 .tarjeta--slider__title.mb-3.text-center.fw-bold  Unidad de carga
-                .tarjeta--slider__content.text-center Permite agrupar productos en lotes por ejemplo cajas sobre una paleta, para optimizar el almacenamiento y transporte.
+                .tarjeta--slider__content.text-center Permite agrupar productos en lotes, por ejemplo, cajas sobre una paleta, para optimizar el almacenamiento y el transporte.
               .tarjeta.color-sistema-h-2
                 .tarjeta--3
                 .tarjeta--slider__title.mb-3.text-center.fw-bold  Compatibilidad con sistemas logísticos
@@ -65,8 +65,7 @@
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/temas/tema_3/img_8.png', class="img-fluid")
         .col-12.col-lg-9
-          p.mb-0 Los embalajes se clasifican de acuerdo con su función en la cadena de suministro. En la logística y preparación de la carga, los embalajes no solo cumplen una función física de resguardo, sino que forman parte estratégica de la cadena de suministro. 
-          p.mb-3 Según el nivel de protección que ofrecen, los embalajes se clasifican en tres tipos:
+          p.mb-3 Los embalajes se clasifican de acuerdo con su función en la cadena de suministro. En la logística y preparación de la carga, los embalajes no solo cumplen una función física de resguardo, sino que forman parte estratégica de la cadena de suministro. Según el nivel de protección que ofrecen, los embalajes se clasifican en tres tipos:
           TabsA.mb-5.tarjeta-tabs-a.color-adicional-4
             .tarjeta.color-adicional-5.p-3.h-100.tarjeta-tabs-a__tarjeta(titulo="Embalaje primario")
               .row.justify-content-center.align-items-center.mb-0
@@ -285,8 +284,7 @@
       .col-12.col-lg-4.mb-3.mb-lg-0
         img(src="@/assets/curso/temas/tema_3/img_29.png", class="img-fluid")
       .col-12.col-lg-6
-        p.mb-0 También se aplican técnicas que garantizan que la carga se mantenga firme, compacta y equilibrada durante todo el trayecto logístico. 
-        p.mb-0 Estas soluciones están orientadas a prevenir desplazamientos, caídas o inestabilidad que puedan comprometer la integridad del producto, al tiempo que optimizan el uso del espacio y disminuyen el riesgo de accidentes o daños causados por movimientos bruscos, entre las que se destacan:
+        p.mb-0 También se aplican técnicas que garantizan que la carga se mantenga firme, compacta y equilibrada durante todo el trayecto logístico. Estas soluciones están orientadas a prevenir desplazamientos, caídas o inestabilidad que puedan comprometer la integridad del producto, al tiempo que optimizan el uso del espacio y disminuyen el riesgo de accidentes o daños causados por movimientos bruscos, entre las que se destacan:
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10.mb-5
         TabsA.mb-5.tarjeta-tabs-a.color-adicional-4

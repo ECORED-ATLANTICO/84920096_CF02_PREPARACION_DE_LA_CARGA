@@ -14,7 +14,7 @@
             figure
               img(src="@/assets/curso/temas/tema_4/img_1.png", class="img-fluid")
           .col-12.col-lg-7.p-4
-            p.mb-0 Corresponden a elementos portátiles y con gran resistencia que protegen a la mercancía que se aloja en su interior de posibles golpes y permiten la ubicación y el apilado de mercancía, construyendo una unidad de carga, que posibilita una posterior manipulación y almacenaje, la que se puede realizar de manera manual o a través de aparatos de manutención
+            p.mb-0 Corresponden a elementos portátiles y con gran resistencia que protegen a la mercancía que se aloja en su interior de posibles golpes y permiten la ubicación y el apilado de mercancía, construyendo una unidad de carga, que posibilita una posterior manipulación y almacenaje, la que se puede realizar de manera manual o a través de aparatos de manutención.
 
       separador
 
@@ -172,19 +172,19 @@
               th Contenido o Función Principal
           tbody
             tr
-              td.text-start.fw-bold ISO (Organización Internacional de Normalización)
+              td.text-start.fw-bold ISO (Organización Internacional de Normalización).
               td.text-start
                 p.mb-0 <b>ISO 668:</b> clasificación y dimensiones estándar de contenedores (series 1A, 1B, 1C para 40’, 30’ y 20’).
                 p.mb-0 <b>ISO 1496:</b> requisitos de diseño y pruebas para contenedores.
                 p.mb-0 <b>ISO 6346:</b> identificación y marcado de contenedores.
 
             tr.bg-table-01
-              td.text-start.fw-bold Convenio Internacional CSC (1972)
+              td.text-start.fw-bold Convenio Internacional CSC (1972).
               td.text-start 
                 p.mb-0 Regula la seguridad estructural y la inspección periódica de contenedores.
                 p.mb-0 Exige la placa CSC Plate como certificación de cumplimiento.
             tr
-              td.text-start.fw-bold IMO (Organización Marítima Internacional)
+              td.text-start.fw-bold IMO (Organización Marítima Internacional).
               td.text-start 
                 p.mb-0 <b>SOLAS (Capítulo VI):</b>  normas para estiba y trincaje de contenedores.
                 p.mb-0 <b>IMDG Code:</b>  transporte de mercancías peligrosas en contenedores.
@@ -194,22 +194,22 @@
                 p.mb-0 <b>UIC 592-6:</b>  normas para contenedores en transporte ferroviario.
                 p.mb-0 <b>ATA Carnet: </b> tránsito temporal de contenedores en aduanas.
             tr
-              td.text-start.fw-bold ICONTEC (Colombia)
+              td.text-start.fw-bold ICONTEC (Colombia).
               td.text-start 
                 p.mb-0 <b>NTC 5131:</b> vocabulario y definiciones.
                 p.mb-0 <b>NTC 5132:</b> dimensiones y tipos.
                 p.mb-0 <b>NTC 5140:</b> requisitos para contenedores refrigerados (<I>Reefers</I>).
                 p.mb-0 <b>NTC 5207:</b> inspección y mantenimiento.
             tr.bg-table-01
-              td.text-start.fw-bold Superintendencia de Transporte
+              td.text-start.fw-bold Superintendencia de Transporte.
               td.text-start Regula operaciones portuarias y manipulación de contenedores en terminales marítimas.
             tr
-              td.text-start.fw-bold Agencia Nacional de Aduanas (ANDA)
+              td.text-start.fw-bold Agencia Nacional de Aduanas (ANDA).
               td.text-start 
                 p.mb-0 <b>Resolución 4246 de 2021:</b> normas para despacho y control aduanero de contenedores.
                 p.mb-0 <b>Decreto 1165/2019:</b> inspección no intrusiva (escaneo).
             tr.bg-table-01
-              td.text-start.fw-bold Ministerio de Transporte
+              td.text-start.fw-bold Ministerio de Transporte.
               td.text-start <b>Reglamento Técnico de Transporte Multimodal:</b> establece estándares para contenedores en carretera y ferrocarril.
 
     separador

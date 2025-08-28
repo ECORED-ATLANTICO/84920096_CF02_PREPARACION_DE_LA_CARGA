@@ -26,7 +26,7 @@
           figure(data-aos="zoom-out-up")
             img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
         .col-12.col-lg-8(data-aos="zoom-in-right")
-          p.mb-3 Las paletas o (<I>palets</I>) son plataformas planas, generalmente de madera, plástico o metal, diseñadas para facilitar el almacenamiento, transporte y manipulación de mercancías mediante grúas, carretillas elevadoras o transpaletas. Son un elemento clave en la logística y la cadena de suministro.
+          p.mb-3 Las paletas (<I>o  palets</I>) son plataformas planas, generalmente de madera, plástico o metal, diseñadas para facilitar el almacenamiento, transporte y manipulación de mercancías mediante grúas, carretillas elevadoras o transpaletas. Son un elemento clave en la logística y la cadena de suministro.
           p.mb-0 La principal función de las paletas es agrupar productos en una sola unidad, lo que facilita su manejo, transporte y almacenamiento.
       
       .row.d-flex.align-items-stretch.justify-content-center.mb-0
@@ -59,7 +59,7 @@
                     img(src="@/assets/curso/temas/tema_2/img_5.png", class="img-fluid" style="width: 99.05px !important; height: 99.5px !important;")
                 .col-12.col-lg-9
                   h6 Peso y tamaño
-                  p.mb-0 En la actualidad los <I>palets</I> son más ligeros y resistentes, y la fabricación de nuevas paletas que se acoplan reducen el espacio de almacenamiento.
+                  p.mb-0 En la actualidad los <I>palets</I> son más ligeros y resistentes, y la fabricación de nuevas paletas que se acoplan reduce el espacio de almacenamiento.
         .col-12.col-md-6.col-lg-5.d-flex.mb-3(data-aos="zoom-in-right")
           .w-100.d-flex.flex-column
             .tarjeta.color-sistema-h.p-3.h-100
@@ -84,8 +84,7 @@
       .col-12.col-lg-8(data-aos="zoom-in-right")
         p.mb-4 Las paletas son plataformas esenciales en logística, diseñadas para almacenar y transportar mercancías de manera eficiente. Cada tipo se adapta a necesidades específicas de carga, higiene o transporte, optimizando la cadena de suministro.
         .cajon.color-primario-adicional-2.p-4.mb-3
-          p.mb-0 Según el material, las paletas se clasifican con base en la materia prima con la que han sido fabricadas, lo cual influye directamente en su resistencia, durabilidad, reutilización y condiciones de uso. 
-          p.mb-0 Esta clasificación permite seleccionar la paleta adecuada según el tipo de carga, entorno logístico o requisitos sanitarios, siendo los más comunes: 
+          p.mb-0 Según el material, las paletas se clasifican con base en la materia prima con la que han sido fabricadas, lo cual influye directamente en su resistencia, durabilidad, reutilización y condiciones de uso. Esta clasificación permite seleccionar la paleta adecuada según el tipo de carga, entorno logístico o requisitos sanitarios, siendo los más comunes: 
       
     .tarjeta.tarjeta--fondo__slider.p-4.mb-5
       SlyderA(tipo="b").tarjeta.tarjeta--blanca.p-4
@@ -151,7 +150,7 @@
             h5 Desventajas:
             ul(style="list-style-type: disc; padding-left: 20px")
               li  Baja resistencia, solo aptas para cargas ligeras.
-              li  Vida útil limitada, diseñadas para un solo uso.
+              li  Vida útil limitada, diseñada para un solo uso.
               li  Vulnerables a la humedad y daños por presión.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
@@ -165,8 +164,7 @@
               figure
                 img(src="@/assets/curso/temas/tema_2/img_12.png", class="img-fluid")
             .col-12.col-lg-10
-              p.mb-0 Según su estructura, las paletas se diferencian por el diseño de sus componentes y la forma en que están ensambladas. 
-              p.mb-0 Esta clasificación influye en la estabilidad de la carga, la facilidad de manipulación y la compatibilidad con equipos de transporte como montacargas o estanterías. Entre las más comunes se encuentran: 
+              p.mb-0 Según su estructura, las paletas se diferencian por el diseño de sus componentes y la forma en que están ensambladas. Esta clasificación influye en la estabilidad de la carga, la facilidad de manipulación y la compatibilidad con equipos de transporte como montacargas o estanterías. Entre las más comunes se encuentran: 
     
     .row.d-flex.justify-content-center.align-items-stretch.mb-5
       .col-12.col-lg-6.mb-3.d-flex(data-aos="flip-left")
@@ -251,7 +249,7 @@
                   img(src="@/assets/curso/temas/tema_2/img_22.svg", class="img-fluid")
               .col-12.col-lg-12
                 h6.text-center Peso 
-                p.text-center.mb-0 Influye en la manejo y costos de transporte.
+                p.text-center.mb-0 influye en el manejo y en los costos de transporte..
       .col-12.col-md-6.col-lg-3.col-xl-2.d-flex.mb-3.mb-xl-0.mb-3(data-aos="flip-left")
         .w-100.d-flex.flex-column
           .tarjeta.color-sistema-h.p-3.h-100
@@ -314,7 +312,7 @@
             div(titulo="Almacenamiento")
               p.ps-5.mb-0 Se apilan en estanterías metálicas o directamente en suelo, respetando límites de altura y peso para prevenir colapsos. Se usan bases para evitar humedad.
             div(titulo="Descarga")
-              p.ps-5.mb-0 Al llegar a destino, se retira la mercancía del <I>palet</I> con cuidado, utilizando maquinaria o manualmente, y se almacena o reutiliza el <I>palet</I> según su condición.
+              p.ps-5.mb-0 Al llegar al destino, se retira la mercancía del <I>palet</I> con cuidado, utilizando maquinaria o manualmente, y se almacena o reutiliza el <I>palet</I> según su condición.
         .col-9.col-lg-4.order-1.order-lg-2.mb-3(data-aos="flip-left")
           figure
             img(src='@/assets/curso/temas/tema_2/img_27.png', class="img-fluid")
