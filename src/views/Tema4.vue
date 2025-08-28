@@ -189,7 +189,7 @@
                 p.mb-0 <b>SOLAS (Capítulo VI):</b>  normas para estiba y trincaje de contenedores.
                 p.mb-0 <b>IMDG Code:</b>  transporte de mercancías peligrosas en contenedores.
             tr.bg-table-01
-              td.text-start.fw-bold Otros
+              td.text-start.fw-bold Otros.
               td.text-start 
                 p.mb-0 <b>UIC 592-6:</b>  normas para contenedores en transporte ferroviario.
                 p.mb-0 <b>ATA Carnet: </b> tránsito temporal de contenedores en aduanas.

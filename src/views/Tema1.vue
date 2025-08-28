@@ -258,42 +258,40 @@
               th Objetivo
           tbody
             tr
-              td(rowspan="4") Internacionales
-              td.text-start OMI (Organización Marítima Internacional) - Código CTU
+              td(rowspan="3") Internacionales
+              td.text-start OMI (Organización Marítima Internacional) - Código CTU.
               td.text-start Establecer directrices para el correcto estibado y trincaje de carga en contenedores y unidades de transporte.
             tr
-              td.text-start Normas ISO <br>ISO 1496 <br>ISO 17712 <br>ISO 3874
-              td.text-start Especificaciones técnicas para contenedores de carga. <br>Requisitos para sellos de seguridad en contenedores. <br>Estándares para manipulación de contenedores.
+              td.text-start Normas ISO <br><br>ISO 1496 <br><br>ISO 17712 <br><br>ISO 3874.
+              td.text-start Especificaciones técnicas para contenedores de carga. <br><br>Requisitos para sellos de seguridad en contenedores. <br><br>Estándares para manipulación de contenedores.
             tr
-              td.text-start DOT (Departamento de Transporte - EE.UU.)
-              td.text-start Regula el peso máximo, distribución y sujeción de carga en transporte terrestre. <br>Exige el uso de cinchas con resistencia certificada.
-            tr
-              td.text-start Unión Europea - Reglamento UE 2014/47
-              td.text-start Establece requisitos técnicos para vehículos de carga. <br>Incluye inspecciones periódicas de sistemas de amarre. <br>Exige que la carga no sobresalga de los límites del vehículo.
-
+              td.text-start DOT (Departamento de Transporte - EE.UU.).
+              td.text-start Regula el peso máximo, distribución y sujeción de carga en transporte terrestre. <br><br>Exige el uso de cinchas con resistencia certificada.
+            
             tr.bg-table-01
-              td(rowspan="3") Regionales
-              td.text-start CEMT (Conferencia Europea de Ministros de Transporte)
-              td.text-start Fija límites de peso y dimensiones para camiones en Europa. <br>Promueve estándares de seguridad en logística internacional.
-
+              td(rowspan="2") Regionales       
+              td.text-start Unión Europea - Reglamento UE 2014/47.
+              td.text-start Establece requisitos técnicos para vehículos de carga. <br><br>Incluye inspecciones periódicas de sistemas de amarre. <br>Exige que la carga no sobresalga de los límites del vehículo.
             tr.bg-table-01
-              td.text-start Resolución 4100 de 2004 (Ministerio de Transporte)
-              td.text-start Establece las condiciones técnicas para el transporte de carga por carretera. <br>Exige que la carga esté correctamente asegurada para evitar desplazamientos. <br>Prohíbe el transporte de mercancías sueltas sin sujeción adecuada.
-
-            tr.bg-table-01
-              td.text-start Decreto 1079 de 2015 (Reglamento de Tránsito)
-              td.text-start Obliga a los conductores a garantizar la estabilidad de la carga. <br>Impone multas por carga mal asegurada que represente riesgo vial.
+              td.text-start CEMT (Conferencia Europea de Ministros de Transporte).
+              td.text-start Fija límites de peso y dimensiones para camiones en Europa. <br><br>Promueve estándares de seguridad en logística internacional.
 
             tr
-              td(rowspan="3") Colombianas
-              td.text-start Normas Icontec <br>NTC 5205 <br>NTC 1695
-              td.text-start Requisitos para flejes metálicos en carga. <br>Estándares para embalajes de madera.
+              td(rowspan="5") Colombianas
+              td.text-start Resolución 4100 de 2004 (Ministerio de Transporte).
+              td.text-start Establece las condiciones técnicas para el transporte de carga por carretera. <br><br>Exige que la carga esté correctamente asegurada para evitar desplazamientos. <br><br>Prohíbe el transporte de mercancías sueltas sin sujeción adecuada.
+            tr
+              td.text-start Decreto 1079 de 2015 (Reglamento de Tránsito).
+              td.text-start Obliga a los conductores a garantizar la estabilidad de la carga. <br><br>Impone multas por carga mal asegurada que represente riesgo vial.
+            tr
+              td.text-start Normas Icontec <br>NTC 5205 <br>NTC 1695.
+              td.text-start Requisitos para flejes metálicos en carga. <br><br>Estándares para embalajes de madera.
             tr
               td.text-start Superintendencia de Puertos y Transporte
-              td.text-start Realiza operativos de control para verificar el correcto aseguramiento de carga. <br>Aplica sanciones por incumplimiento.
+              td.text-start Realiza operativos de control para verificar el correcto aseguramiento de carga. <br><br>Aplica sanciones por incumplimiento.
             tr
               td.text-start DIAN
-              td.text-start Exige que la carga en contenedores cumpla con normas internacionales para exportaciones. <br>Rechaza mercancías mal estibadas que puedan sufrir daños en tránsito.
+              td.text-start Exige que la carga en contenedores cumpla con normas internacionales para exportaciones. <br><br>Rechaza mercancías mal estibadas que puedan sufrir daños en tránsito.
 </template>
 
 <script>
