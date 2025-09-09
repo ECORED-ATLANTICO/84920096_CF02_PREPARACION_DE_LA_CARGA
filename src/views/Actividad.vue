@@ -22,7 +22,7 @@ export default {
       introduccion:
         '<b> Objetivo:</b> validar el conocimiento adquirido sobre el aseguramiento y embalaje de la carga.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
