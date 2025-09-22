@@ -104,7 +104,7 @@
               li  Pueden ser afectadas por plagas si no se tratan adecuadamente.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_2/img_8.png', class="img-fluid")
+              img(src='@/assets/curso/temas/tema_2/img_8.png', class="img-fluid", alt="Se muestra las paletas de madera.")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
             h5 Paleta de plástico
@@ -120,7 +120,7 @@
               li  Pueden deformarse bajo cargas muy pesadas o altas temperaturas.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_2/img_9.png', class="img-fluid")
+              img(src='@/assets/curso/temas/tema_2/img_9.png', class="img-fluid", alt="Se muestra las paletas de plástico.")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
             h5 Paleta de metal (acero o aluminio)
@@ -137,7 +137,7 @@
               li  Puede generar ruido o rayar superficies si no se manejan adecuadamente.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_2/img_10.png', class="img-fluid")
+              img(src='@/assets/curso/temas/tema_2/img_10.png', class="img-fluid", alt="Se muestra las paletas de metal (acero o aluminio).")
         .row.justify-content-center.align-items-center
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
             h5 Paleta de cartón o corcho
@@ -154,7 +154,7 @@
               li  Vulnerables a la humedad y daños por presión.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
-              img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid")
+              img(src='@/assets/curso/temas/tema_2/img_11.png', class="img-fluid", alt="Se muestra las paletas de cartón o corcho.")
     
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-10.mb-3(data-aos="zoom-in-right")
@@ -171,7 +171,7 @@
         .w-100.d-flex.flex-column.h-100
           .tarjeta.color-primario.d-flex.flex-column.h-100.rounded-0
             figure.mb-0
-              img(src="@/assets/curso/temas/tema_2/img_13.png", class="img-fluid w-100 h-100")
+              img(src="@/assets/curso/temas/tema_2/img_13.png", class="img-fluid w-100 h-100", alt="Palet de dos entradas (2 vías).")
             .flex-grow-1.d-flex.flex-column
               h5.p-3.pb-0.mb-0 <I>Palet</I> de dos entradas (2 vías)
               p.p-3.pb-0.mb-3 Solo se puede manipular por dos lados con carretilla.
@@ -179,7 +179,7 @@
         .w-100.d-flex.flex-column.h-100
           .tarjeta.color-acento-contenido.d-flex.flex-column.h-100.rounded-0
             figure.mb-0
-              img(src="@/assets/curso/temas/tema_2/img_14.png", class="img-fluid w-100 h-100")
+              img(src="@/assets/curso/temas/tema_2/img_14.png", class="img-fluid w-100 h-100", alt="Palet de cuatro entradas (4 vías).")
             .flex-grow-1.d-flex.flex-column
               h5.p-3.pb-0.mb-0 <I>Palet</I> de cuatro entradas (4 vías)
               p.p-3.pb-0.mb-3 Permite el acceso desde cualquier lado, más versátil.
@@ -187,7 +187,7 @@
         .w-100.d-flex.flex-column.h-100
           .tarjeta.color-primario.d-flex.flex-column.h-100.rounded-0
             figure.mb-0
-              img(src="@/assets/curso/temas/tema_2/img_15.png", class="img-fluid w-100 h-100")
+              img(src="@/assets/curso/temas/tema_2/img_15.png", class="img-fluid w-100 h-100", alt="Palet reversible (de doble cara).")
             .flex-grow-1.d-flex.flex-column
               h5.p-3.pb-0.mb-0 <I>Palet</I> reversible (de doble cara)
               p.p-3.pb-0.mb-3 Tienen tablas tanto en la parte superior como inferior, soportando más peso.
@@ -195,7 +195,7 @@
         .w-100.d-flex.flex-column.h-100
           .tarjeta.color-acento-contenido.d-flex.flex-column.h-100.rounded-0
             figure.mb-0
-              img(src="@/assets/curso/temas/tema_2/img_16.png", class="img-fluid w-100 h-100")
+              img(src="@/assets/curso/temas/tema_2/img_16.png", class="img-fluid w-100 h-100", alt="Palet cerrado (bloque).")
             .flex-grow-1.d-flex.flex-column
               h5.p-3.pb-0.mb-0 <I>Palet</I> cerrado (bloque)
               p.p-3.pb-0.mb-3 Diseño más robusto, con bloques de soporte en las esquinas.
@@ -216,10 +216,10 @@
       .row.justify-content-center.align-items-center
         .col-12.col-lg-5.mb-lg-0.mb-3(data-aos="flip-left")
           figure
-            img(src='@/assets/curso/temas/tema_2/img_19.png', class="img-fluid")
+            img(src='@/assets/curso/temas/tema_2/img_19.png', class="img-fluid", alt="Paleta europea (EUR): medida estándar (1200 x 800 mm), común en Europa.")
         .col-12.col-lg-5.mb-lg-0.mb-3(data-aos="flip-left")
           figure
-            img(src='@/assets/curso/temas/tema_2/img_20.png', class="img-fluid")
+            img(src='@/assets/curso/temas/tema_2/img_20.png', class="img-fluid", alt="Paleta ISO (universal) :variantes como el americano (1200 x 1000 mm) o el asiático (1100 x 1100 mm).")
 
     separador
 

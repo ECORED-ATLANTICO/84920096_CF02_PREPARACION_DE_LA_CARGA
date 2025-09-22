@@ -135,7 +135,7 @@
           h5 Figura 1.
           |    Factores clave para selección del tipo de embalaje
         figure
-          img(src='@/assets/curso/temas/tema_3/img_16.svg', alt=" En la figura se presentan los factores clave para la selección del tipo de embalaje. Factores clave Características del producto Proceso de producción y envasado Manipulación en transporte y almacenaje Impacto medioambiental"  class="img-fluid")
+          img(src='@/assets/curso/temas/tema_3/img_16.svg', class="img-fluid", alt="En la figura se presentan los factores clave para la selección del tipo de embalaje. Factores clave: - Características del producto. - Proceso de producción y envasado. - Manipulación en transporte y almacenaje. - Impacto medioambiental.")
           figcaption <b>Fuente:</b> SENA, 2025.
     
     .bg_img_10.mb-3
